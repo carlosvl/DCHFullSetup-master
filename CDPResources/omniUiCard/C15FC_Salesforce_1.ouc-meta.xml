@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C15FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%0A%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3EC15%20Biodiversity%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.1)%20Is%20there%20board-level%20oversight%20and/or%20executive%20management-level%20responsibility%20for%20biodiversity-related%20matters%20within%20your%20organization?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20indicates%20to%20investors%20and%20other%20data%20users%20the%20level%20of%20commitment%20and%20strategic%20importance%20organizations%20give%20to%20addressing%20biodiversity-related%20issues.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EConsider%20whether%20the%20board,%20board%20committees%20and/or%20executive%20management%20consider%20biodiversity-related%20issues%20when%20reviewing%20and%20guiding%20the%20business%20strategy,%20major%20plans%20of%20action,%20risk%20management%20policies,%20annual%20budgets,%20and%20future%20financial%20planning,%20or%20when%20setting%20the%20organization&amp;rsquo;s%20performance%20objectives,%20monitoring%20implementation%20and%20performance,%20and%20overseeing%20major%20capital%20expenditures,%20acquisitions,%20and%20divestitures.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBoard%3C/strong%3E:%20Or%20&amp;ldquo;Board%20of%20Directors&amp;rdquo;%20refers%20to%20a%20body%20of%20elected%20or%20appointed%20members%20who%20jointly%20oversee%20the%20activities%20of%20a%20company%20or%20organization.%20Some%20countries%20use%20a%20two-tiered%20system%20where%20&amp;ldquo;board&amp;rdquo;%20refers%20to%20the%20&amp;ldquo;supervisory%20board&amp;rdquo;%20while%20&amp;ldquo;key%20executives&amp;rdquo;%20refers%20to%20the%20&amp;ldquo;management%20board%22%20(%3Ca%20href=%22https://www.fsb-tcfd.org/wp-content/uploads/2017/06/FINAL-TCFD-Annex-062817.pdf%22%20target=%22_blank%22%20rel=%22noopener%22%3ETCFD,%202017%3C/a%3E).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.2)%20Has%20your%20organization%20made%20a%20public%20commitment%20and/or%20endorsed%20any%20initiatives%20related%20to%20biodiversity?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EAn%20organization%20that%20commits%20publicly%20to%20implementing%20a%20biodiversity%20policy%20sends%20investors%20and%20other%20data%20users%20a%20strong%20signal%20that%20it%20wishes%20to%20be%20held%20to%20account%20for%20its%20biodiversity%20stewardship.%20Organizations%20disclosing%20this%20information%20can%20benchmark%20their%20commitments%20against%20their%20peers%20and%20so%20drive%20change%20within%20their%20industries.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EA%20commitment%20is%20public%20when%20it%20is%20accessible%20to%20stakeholders%20(e.g.,%20available%20on%20the%20organization&amp;rsquo;s%20website%20or%20on%20any%20other%20unrestricted%20site).%3C/li%3E%0A%3Cli%3ESelect%20a%20&amp;lsquo;Yes&amp;rsquo;%20option%20if%20your%20organization%20has%20made%20any%20public%20commitment%20related%20to%20biodiversity.%3C/li%3E%0A%3Cli%3EDo%20not%20select%20a%20&amp;lsquo;Yes&amp;rsquo;%20option%20if%20your%20commitments%20are%20internal%20or%20private%20only.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%20style=%22list-style-type:%20none;%22%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3ECITES%20species:&amp;nbsp;%3C/strong%3Especies%20listed%20in%20any%20of%20the%20annexes%20of%20the%20Convention%20on%20International%20Trade%20in%20Endangered%20Species%20of%20Wild%20Fauna%20and%20Flora%20(CITES).%3C/li%3E%0A%3Cli%3E%3Cstrong%3EFree,%20Prior%20and%20Informed%20Consent%20(FPIC):%3C/strong%3E&amp;nbsp;a%20community%20right%20to%20give%20or%20withhold%20its%20consent%20to%20proposed%20projects%20that%20may%20affect%20the%20lands%20they%20customarily%20own,%20occupy%20or%20otherwise%20use,%20as%20recognized%20by%20several%20international%20instruments%20including%20the%20UN%20Declaration%20on%20the%20Rights%20of%20Indigenous%20Peoples%20(UNDRIP),%20International%20Labour%20Organization&amp;rsquo;s%20Convention%20169,%20and%20Convention%20on%20Biological%20Diversity%20(CBD).%3C/li%3E%0A%3Cli%3E%3Cstrong%3EInternationally%20recognized%20areas:%3C/strong%3E&amp;nbsp;UNESCO%20Natural%20World%20Heritage%20Sites,%20UNESCO%20Man%20and%20the%20Biosphere%20Reserves,%20Key%20Biodiversity%20Areas,%20and%20wetlands%20designated%20under%20the%20Convention%20on%20Wetlands%20of%20International%20Importance%20(the%20Ramsar%20Convention)%20(%3Ca%20href=%22https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps6%22%20target=%22_blank%22%20rel=%22noopener%22%3EIFC,%202012%3C/a%3E).%3C/li%3E%0A%3Cli%3E%3Cstrong%3EProtected%20area:%3C/strong%3E&amp;nbsp;a%20protected%20area%20is%20a%20clearly%20defined%20geographical%20space,%20recognised,%20dedicated%20and%20managed,%20through%20legal%20or%20other%20effective%20means,%20to%20achieve%20the%20long-term%20conservation%20of%20nature%20with%20associated%20ecosystem%20services%20and%20cultural%20values%20(%3Ca%20href=%22https://www.iucn.org/sites/dev/files/import/downloads/iucn_assignment_1.pdf%22%20target=%22_blank%22%20rel=%22noopener%22%3EIUCN,%202008%3C/a%3E).%20For%20the%20purposes%20of%20this%20CDP%20disclosure,%20only%20legally%20designated%20areas%20(i.e.,%20designated%20by%20governments)%20are%20expected%20to%20be%20disclosed.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENet%20Positive%20Impact:%3C/strong%3E&amp;nbsp;The%20point%20at%20which%20project-related%20impacts%20on%20biodiversity%20and%20ecosystem%20services%20are%20outweighed%20by%20measures%20taken%20according%20to%20the%20mitigation%20hierarchy,%20so%20that%20a%20net%20gain%20results.%20May%20also%20be%20referred%20to%20as%20net%20gain%20(%3Ca%20href=%22http://www.csbi.org.uk/our-work/mitigation-hierarchy-guide/%22%20target=%22_blank%22%20rel=%22noopener%22%3ECSBI,%202015%3C/a%3E).%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENo%20Net%20Loss:%3C/strong%3E&amp;nbsp;The%20point%20at%20which%20project-related%20impacts%20are%20balanced%20by%20measures%20taken%20through%20application%20of%20the%20mitigation%20hierarchy,%20so%20that%20no%20loss%20remains%20(%3Ca%20href=%22http://www.csbi.org.uk/our-work/mitigation-hierarchy-guide/%22%20target=%22_blank%22%20rel=%22noopener%22%3ECSBI,%202015%3C/a%3E).%3C/li%3E%0A%3Cli%3E%3Cstrong%3EThreatened%20and%20protected%20habitats:%3C/strong%3E&amp;nbsp;All%20habitats%20considered%20threatened%20or%20otherwise%20protected%20by%20national%20or%20subnational%20laws%20and%20regulation,%20as%20well%20as%20international%20multilateral%20agreements,%20including%20protected%20areas,%20World%20Natural%20Heritage%20Sites,%20Natura%202000%20sites%20and%20other%20similar%20areas.%3C/li%3E%0A%3C/ul%3E%0A%3C/li%3E%0A%3C/ul%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.3)%20Does%20your%20organization%20assess%20the%20impact%20of%20its%20value%20chain%20on%20biodiversity?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EAn%20organization&amp;rsquo;s%20assessment%20of%20its%20impact%20on%20biodiversity%20facilitates%20and%20sets%20its%20approach%20to%20monitoring%20and%20addressing%20biodiversity%20issues.%20It%20identifies%20not%20only%20the%20activities%20and%20operations%20that%20could%20impact%20biodiversity,%20but%20also%20generates%20specific%20information%20on%20the%20species,%20habitats%20and%20ecosystem%20services%20affected.%20Your%20response%20to%20this%20question%20aligns%20with%20requirements%20of%20&amp;ldquo;Stage%201:%20Priorities&amp;rdquo;%20in%20IUCN&amp;rsquo;s&amp;nbsp;%3Ca%20href=%22https://portals.iucn.org/library/node/49301%22%20target=%22_blank%22%20rel=%22noopener%22%3EGuidelines%20for%20planning%20and%20monitoring%20corporate%20biodiversity%20performance%3C/a%3E,%20which%20recommends%20that%20companies%20understand%20their%20impact%20and%20dependencies%20on%20biodiversity.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EWhen%20responding%20to%20this%20question%20organizations%20should%20consider%20how%20they%20assess%20whether%20their%20actions%20cause%20impacts%20on%20biodiversity.%3C/li%3E%0A%3Cli%3EIf%20impacts%20on%20biodiversity%20are%20assessed,%20then%20select%20the%20option%20which%20describes%20best%20where%20the%20assessment%20occurs%20in%20the%20value%20chain.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBiodiversity%20performance:&amp;nbsp;%3C/strong%3Ethe%20measurement%20of%20success%20of%20an%20organization&amp;rsquo;s%20interventions%20towards%20mitigation%20of%20their%20negative%20biodiversity%20impacts%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.4)%20What%20actions%20has%20your%20organization%20taken%20in%20the%20reporting%20year%20to%20progress%20your%20biodiversity-related%20commitments?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20enables%20organisations%20to%20demonstrate%20how%20they%20are%20achieving%20their%20vision%20and%20ambition%20for%20biodiversity%20through%20addressing%20the%20issues%20they%20have%20identified%20and%20committed%20to%20addressing.%20Your%20response%20to%20this%20question%20aligns%20with%20requirements%20of%20&amp;ldquo;Stage%202:%20Ambitions&amp;rdquo;%20in%20IUCN&amp;rsquo;s&amp;nbsp;%3Ca%20href=%22https://portals.iucn.org/library/node/49301%22%20target=%22_blank%22%20rel=%22noopener%22%3EGuidelines%20for%20planning%20and%20monitoring%20corporate%20biodiversity%20performance%3C/a%3E,%20which%20recommends%20that%20companies%20develop%20and%20deliver%20biodiversity%20goals%20and%20objectives.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ESelect%20the%20options%20that%20best%20describe%20the%20actions%20your%20organization%20is%20taking%20to%20progress%20your%20biodiversity-related%20commitments.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.5)%20Does%20your%20organization%20use%20biodiversity%20indicators%20to%20monitor%20performance%20across%20its%20activities?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ERobust%20indicators%20are%20critical%20for%20a%20corporate-level%20assessment%20of%20biodiversity%20impact,%20by%20allowing%20the%20aggregation%20of%20data%20from%20different%20activities%20and%20geographies.%20This%20question%20allows%20an%20organisation%20to%20demonstrate%20its%20use%20of%20indicators%20to%20track%20progress%20against%20its%20biodiversity%20goals%20and%20objectives%20and%20evaluate%20the%20success%20of%20its%20intervention/s.%20Your%20response%20to%20this%20question%20aligns%20with%20requirements%20of%20&amp;ldquo;Stage%203:%20Indicators&amp;rdquo;%20in%20IUCN&amp;rsquo;s&amp;nbsp;%3Ca%20href=%22https://portals.iucn.org/library/node/49301%22%20target=%22_blank%22%20rel=%22noopener%22%3EGuidelines%20for%20planning%20and%20monitoring%20corporate%20biodiversity%20performance%3C/a%3E,%20which%20recommends%20that%20companies%20collect,%20share%20and%20analyse%20biodiversity%20data%20that%20encourages%20learning%20and%20improvement.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBiodiversity%20indicators:%3C/strong%3E&amp;nbsp;biodiversity%20indicators%20are%20communication%20tools%20that%20summarize%20data%20on%20complex%20environmental%20issues.%20They%20can%20be%20used%20to%20signal%20key%20issues%20to%20be%20addressed%20through%20policy%20or%20management%20interventions.%20Indicators,%20therefore,%20are%20important%20for%20monitoring%20the%20status%20and%20trends%20of%20biological%20diversity%20and,%20in%20turn,%20feeding%20back%20information%20on%20ways%20to%20continually%20improve%20the%20effectiveness%20of%20biodiversity%20policies%20and%20management%20programmes%20(%3Ca%20href=%22https://www.greenfacts.org/en/global-biodiversity-outlook/l-3/3-measuring-trends.htm%22%20target=%22_blank%22%20rel=%22noopener%22%3EGreenFacts,%202006%3C/a%3E).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C15.6)%20Have%20you%20published%20information%20about%20your%20organization&amp;rsquo;s%20response%20to%20biodiversity-related%20issues%20for%20this%20reporting%20year%20in%20places%20other%20than%20in%20your%20CDP%20response?%20If%20so,%20please%20attach%20the%20publication(s).%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EInvestors%20want%20to%20understand%20how%20biodiversity%20issues,%20as%20a%20non-financial%20metric,%20have%20been%20integrated%20into%20mainstream%20financial%20reports.%20They%20will%20look%20to%20see%20how%20it%20is%20considered%20as%20part%20of%20business%20performance,%20where%20this%20is%20communicated,%20and%20whether%20these%20communications%20are%20in%20line%20with%20best%20practice.%20Your%20response%20to%20this%20question%20aligns%20with%20requirements%20of%20&amp;ldquo;Stage%204:%20Implementation&amp;rdquo;%20in%20IUCN&amp;rsquo;s&amp;nbsp;%3Ca%20href=%22https://portals.iucn.org/library/node/49301%22%20target=%22_blank%22%20rel=%22noopener%22%3EGuidelines%20for%20planning%20and%20monitoring%20corporate%20biodiversity%20performance%3C/a%3E,%20which%20recommends%20that%20companies%20share%20the%20data%20that%20they%20collect.%3C/p%3E%0A%3Cp%3E%3Cstrong%3E&amp;nbsp;%3C/strong%3E%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EThis%20question%20asks%20about%20communication%20of%20your%20position%20on%20biodiversity%20outside%20of%20your%20CDP%20response.%20Even%20where%20the%20relevant%20information%20is%20web-based,%20you%20must%20produce%20a%20static%20document%20to%20attach,%20due%20to%20the%20need%20to%20maintain%20a%20fixed%20response%20over%20time%20that%20can%20be%20accessed%20in%20full%20at%20any%20time%20in%20the%20future;%20a%20URL%20is%20inherently%20dynamic%20and%20therefore%20cannot%20fulfill%20this%20requirement.%3C/li%3E%0A%3C/ul%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%20style=%22list-style-type:%20none;%22%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBiodiversity%20performance:&amp;nbsp;%3C/strong%3EThe%20measurement%20of%20success%20of%20an%20organization&apos;s%20interventions%20towards%20the%20mitigation%20of%20their%20negative%20biodiversity%20impacts.%3C/li%3E%0A%3C/ul%3E%0A%3C/li%3E%0A%3C/ul%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C15FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C15FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

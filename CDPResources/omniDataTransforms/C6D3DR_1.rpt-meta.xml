@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;C6D3Resp&quot; : [ {
+    &quot;C6D3D3Val&quot; : 700,
+    &quot;C6D3D2Val&quot; : 900,
+    &quot;C6D3D1Val&quot; : &quot;2022&quot;
+  }, {
+    &quot;C6D3D3Val&quot; : 0,
+    &quot;C6D3D2Val&quot; : 0,
+    &quot;C6D3D1Val&quot; : &quot;2021&quot;
+  } ]
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>C6D3DR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>C6D3DRCustom4242</globalKey>
+        <inputFieldName>C6D3Resp:C6D3D3Val</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>C6D3DR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHCDP__C6D3:NZCDCHCDP__C6D3D3</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>C6D3DRCustom7234</globalKey>
+        <inputFieldName>C6D3Resp:C6D3D1Val</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>C6D3DR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Integer</outputFieldFormat>
+        <outputFieldName>NZCDCHCDP__C6D3:NZCDCHCDP__C6D3D1</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>C6D3DRCustom5562</globalKey>
+        <inputFieldName>C6D3Resp:C6D3D2Val</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>C6D3DR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHCDP__C6D3:NZCDCHCDP__C6D3D2</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;C6D3Resp&quot; : [ {
+    &quot;C6D3D3Val&quot; : 700,
+    &quot;C6D3D2Val&quot; : 900,
+    &quot;C6D3D1Val&quot; : &quot;2022&quot;
+  }, {
+    &quot;C6D3D3Val&quot; : 0,
+    &quot;C6D3D2Val&quot; : 0,
+    &quot;C6D3D1Val&quot; : &quot;2021&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>C6D3DR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
+    <designerCustomizationType>Discovery Framework</designerCustomizationType>
+    <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+    <elementTypeComponentMapping>{
+  &quot;ElementTypeToHTMLTemplateList&quot; : [ ]
+}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>true</isWebCompEnabled>
+    <language>English</language>
+    <name>C5</name>
+    <omniProcessElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D1</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C5.1)Is this your first year of reporting emissions data to CDP?&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>0.0</sequenceNumber>
+            <type>Select</type>
+            <uniqueIndex>NZCDCHCDP__C5D1</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1aD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Has there been a structural change?&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes, an acquisition&quot;,
+    &quot;value&quot; : &quot;Yes, an acquisition&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, a divestment&quot;,
+    &quot;value&quot; : &quot;Yes, a divestment&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, a merger&quot;,
+    &quot;value&quot; : &quot;Yes, a merger&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, other structural change, please specify&quot;,
+    &quot;value&quot; : &quot;Yes, other structural change, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C5D1aD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1aD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Name of organization(s) acquired, divested from, or merged with*&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;OR&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes, an acquisition&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a divestment&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a merger&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, other structural change, please specify&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D1aD2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1aD3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Details of structural change(s), including completion dates*&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 2500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;OR&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes, an acquisition&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a divestment&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a merger&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1aD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, other structural change, please specify&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D1aD3</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D1a</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;(C5.1a)Has your organization undergone any structural changes in the reporting year, or are any previous structural changes being accounted for in this disclosure of emissions data?&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;AND&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;No&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 3
+}</propertySetConfig>
+            <sequenceNumber>1.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C5D1a</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1bD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Change(s) in methodology, boundary, and/or reporting year definition?&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes, a change in methodology&quot;,
+    &quot;developerName&quot; : &quot;Yes, a change in methodology&quot;,
+    &quot;value&quot; : &quot;Yes, a change in methodology&quot;
+  }, {
+    &quot;name&quot; : &quot;Yes, a change in boundary&quot;,
+    &quot;developerName&quot; : &quot;Yes, a change in boundary&quot;,
+    &quot;value&quot; : &quot;Yes, a change in boundary&quot;
+  }, {
+    &quot;name&quot; : &quot;Yes, a change in reporting year definition&quot;,
+    &quot;developerName&quot; : &quot;Yes, a change in reporting year definition&quot;,
+    &quot;value&quot; : &quot;Yes, a change in reporting year definition&quot;
+  }, {
+    &quot;name&quot; : &quot;No, but we have discovered significant errors in our previous response(s)&quot;,
+    &quot;developerName&quot; : &quot;No, but we have discovered significant errors in our previous response(s)&quot;,
+    &quot;value&quot; : &quot;No, but we have discovered significant errors in our previous response(s)&quot;
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;developerName&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Multi-select</type>
+                <uniqueIndex>NZCDCHCDP__C5D1bD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1bD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Details of methodology, boundary, and/or reporting year definition change(s)*&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 2500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;OR&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes, a change in methodology&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1bD1|n&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1bD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a change in boundary&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1bD1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a change in reporting year definition&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D1bD2</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D1b</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;(C5.1b) )Has your emissions accounting methodology, boundary, and/or reporting year definition changed in the reporting year?&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;AND&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;No&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C5D1&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 2
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C5D1b</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1cD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Base year recalculation&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot; No, because we have not evaluated whether the changes should trigger a base year recalculation&quot;,
+    &quot;value&quot; : &quot; No, because we have not evaluated whether the changes should trigger a base year recalculation&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot; No, because the impact does not meet our significance threshold&quot;,
+    &quot;value&quot; : &quot; No, because the impact does not meet our significance threshold&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot; No, because the operations acquired or divested did not exist in the base year&quot;,
+    &quot;value&quot; : &quot; No, because the operations acquired or divested did not exist in the base year&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot; No, because we do not have the data yet and plan to recalculate next year&quot;,
+    &quot;value&quot; : &quot; No, because we do not have the data yet and plan to recalculate next year&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C5D1cD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D1cD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Base year emissions recalculation policy, including significance threshold&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 2500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D1cD2</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D1c</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C5.1c) Have your organization’s base year emissions been recalculated as result of the changes or errors reported in C5.1a and C5.1b?&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 2
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C5D1c</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D2D1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Scope&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : true,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 255,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D2D1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D2D2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Base year start&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : &quot;Today()&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;dateType&quot; : &quot;string&quot;,
+  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
+  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true,
+  &quot;minDate&quot; : &quot;&quot;,
+  &quot;maxDate&quot; : &quot;&quot;
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Date</type>
+                <uniqueIndex>NZCDCHCDP__C5D2D2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D2D3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Base year end&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : &quot;Today()&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;dateType&quot; : &quot;string&quot;,
+  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
+  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true,
+  &quot;minDate&quot; : &quot;&quot;,
+  &quot;maxDate&quot; : &quot;&quot;
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Date</type>
+                <uniqueIndex>NZCDCHCDP__C5D2D3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D2D4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Base year emissions (metric tons CO2e)&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : 0,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;mask&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>Number</type>
+                <uniqueIndex>NZCDCHCDP__C5D2D4</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C5D2D5</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Comment&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : &quot;NA&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 2400,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>4.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C5D2D5</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D2</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C5.2) Provide your base year and base year emissions.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 5
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C5D2</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C5D3</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C5.3) Select the name of the standard, protocol, or methodology you have used to collect activity data and calculate emissions.&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;ABI Energia Linee Guida&quot;,
+    &quot;developerName&quot; : &quot;ABI Energia Linee Guida&quot;,
+    &quot;value&quot; : &quot;ABI Energia Linee Guida&quot;
+  }, {
+    &quot;name&quot; : &quot;Act on the Rational Use of Energy&quot;,
+    &quot;developerName&quot; : &quot;Act on the Rational Use of Energy&quot;,
+    &quot;value&quot; : &quot;Act on the Rational Use of Energy&quot;
+  }, {
+    &quot;name&quot; : &quot;American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009&quot;,
+    &quot;developerName&quot; : &quot;American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009&quot;,
+    &quot;value&quot; : &quot;American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009&quot;
+  }, {
+    &quot;name&quot; : &quot;Australia - National Greenhouse and Energy Reporting Act&quot;,
+    &quot;developerName&quot; : &quot;Australia - National Greenhouse and Energy Reporting Act&quot;,
+    &quot;value&quot; : &quot;Australia - National Greenhouse and Energy Reporting Act&quot;
+  }, {
+    &quot;name&quot; : &quot;Bilan Carbone&quot;,
+    &quot;developerName&quot; : &quot;Bilan Carbone&quot;,
+    &quot;value&quot; : &quot;Bilan Carbone&quot;
+  }, {
+    &quot;name&quot; : &quot;Brazil GHG Protocol Programme&quot;,
+    &quot;developerName&quot; : &quot;Brazil GHG Protocol Programme&quot;,
+    &quot;value&quot; : &quot;Brazil GHG Protocol Programme&quot;
+  }, {
+    &quot;name&quot; : &quot;Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003&quot;,
+    &quot;developerName&quot; : &quot;Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003&quot;,
+    &quot;value&quot; : &quot;Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003&quot;
+  }, {
+    &quot;name&quot; : &quot;China Corporate Energy Conservation and GHG Management Programme&quot;,
+    &quot;developerName&quot; : &quot;China Corporate Energy Conservation and GHG Management Programme&quot;,
+    &quot;value&quot; : &quot;China Corporate Energy Conservation and GHG Management Programme&quot;
+  }, {
+    &quot;name&quot; : &quot;Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019&quot;,
+    &quot;developerName&quot; : &quot;Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019&quot;,
+    &quot;value&quot; : &quot;Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019&quot;
+  }, {
+    &quot;name&quot; : &quot;ENCORD: Construction CO2e Measurement Protocol&quot;,
+    &quot;developerName&quot; : &quot;ENCORD: Construction CO2e Measurement Protocol&quot;,
+    &quot;value&quot; : &quot;ENCORD: Construction CO2e Measurement Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;Energy Information Administration 1605(b)&quot;,
+    &quot;developerName&quot; : &quot;Energy Information Administration 1605(b)&quot;,
+    &quot;value&quot; : &quot;Energy Information Administration 1605(b)&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Sulphur hexafluoride (SF6) Emission Estimation and Reporting Protocol for Electric Utilities&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Sulphur hexafluoride (SF6) Emission Estimation and Reporting Protocol for Electric Utilities&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Sulphur hexafluoride (SF6) Emission Estimation and Reporting Protocol for Electric Utilities&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Aluminum Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Aluminum Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Aluminum Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Base Metals Smelting/Refining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Base Metals Smelting/Refining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Base Metals Smelting/Refining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Cement Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Cement Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Cement Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Primary Iron and Steel Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Primary Iron and Steel Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Primary Iron and Steel Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Lime Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Lime Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Lime Production, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Primary Magnesium Production and Casting, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Primary Magnesium Production and Casting, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Primary Magnesium Production and Casting, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;Environment Canada, Metal Mining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;developerName&quot; : &quot;Environment Canada, Metal Mining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;,
+    &quot;value&quot; : &quot;Environment Canada, Metal Mining, Guidance Manual for Estimating Greenhouse Gas Emissions&quot;
+  }, {
+    &quot;name&quot; : &quot;EPRA (European Public Real Estate Association) guidelines, 2011&quot;,
+    &quot;developerName&quot; : &quot;EPRA (European Public Real Estate Association) guidelines, 2011&quot;,
+    &quot;value&quot; : &quot;EPRA (European Public Real Estate Association) guidelines, 2011&quot;
+  }, {
+    &quot;name&quot; : &quot;EPRA (European Public Real Estate Association) Sustainability Best Practice recommendations Guidelines, 2017&quot;,
+    &quot;developerName&quot; : &quot;EPRA (European Public Real Estate Association) Sustainability Best Practice recommendations Guidelines, 2017&quot;,
+    &quot;value&quot; : &quot;EPRA (European Public Real Estate Association) Sustainability Best Practice recommendations Guidelines, 2017&quot;
+  }, {
+    &quot;name&quot; : &quot;European Union Emission Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for installations&quot;,
+    &quot;developerName&quot; : &quot;European Union Emission Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for installations&quot;,
+    &quot;value&quot; : &quot;European Union Emission Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for installations&quot;
+  }, {
+    &quot;name&quot; : &quot;European Union Emissions Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for aircraft operators&quot;,
+    &quot;developerName&quot; : &quot;European Union Emissions Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for aircraft operators&quot;,
+    &quot;value&quot; : &quot;European Union Emissions Trading System (EU ETS): The Monitoring and Reporting Regulation (MMR) – General guidance for aircraft operators&quot;
+  }, {
+    &quot;name&quot; : &quot;French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)&quot;,
+    &quot;developerName&quot; : &quot;French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)&quot;,
+    &quot;value&quot; : &quot;French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)&quot;
+  }, {
+    &quot;name&quot; : &quot;Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010&quot;,
+    &quot;developerName&quot; : &quot;Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010&quot;,
+    &quot;value&quot; : &quot;Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010&quot;
+  }, {
+    &quot;name&quot; : &quot;ICLEI Local Government GHG Protocol&quot;,
+    &quot;developerName&quot; : &quot;ICLEI Local Government GHG Protocol&quot;,
+    &quot;value&quot; : &quot;ICLEI Local Government GHG Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;IEA CO2 Emissions from Fuel Combustion&quot;,
+    &quot;developerName&quot; : &quot;IEA CO2 Emissions from Fuel Combustion&quot;,
+    &quot;value&quot; : &quot;IEA CO2 Emissions from Fuel Combustion&quot;
+  }, {
+    &quot;name&quot; : &quot;India GHG Inventory Programme&quot;,
+    &quot;developerName&quot; : &quot;India GHG Inventory Programme&quot;,
+    &quot;value&quot; : &quot;India GHG Inventory Programme&quot;
+  }, {
+    &quot;name&quot; : &quot;International Wine Industry Greenhouse Gas Protocol and Accounting Tool&quot;,
+    &quot;developerName&quot; : &quot;International Wine Industry Greenhouse Gas Protocol and Accounting Tool&quot;,
+    &quot;value&quot; : &quot;International Wine Industry Greenhouse Gas Protocol and Accounting Tool&quot;
+  }, {
+    &quot;name&quot; : &quot;IPCC Guidelines for National Greenhouse Gas Inventories, 2006&quot;,
+    &quot;developerName&quot; : &quot;IPCC Guidelines for National Greenhouse Gas Inventories, 2006&quot;,
+    &quot;value&quot; : &quot;IPCC Guidelines for National Greenhouse Gas Inventories, 2006&quot;
+  }, {
+    &quot;name&quot; : &quot;IPIECA&apos;s Petroleum Industry Guidelines for reporting GHG emissions, 2003&quot;,
+    &quot;developerName&quot; : &quot;IPIECA&apos;s Petroleum Industry Guidelines for reporting GHG emissions, 2003&quot;,
+    &quot;value&quot; : &quot;IPIECA&apos;s Petroleum Industry Guidelines for reporting GHG emissions, 2003&quot;
+  }, {
+    &quot;name&quot; : &quot;IPIECA’s Petroleum Industry Guidelines for reporting GHG emissions, 2nd edition, 2011&quot;,
+    &quot;developerName&quot; : &quot;IPIECA’s Petroleum Industry Guidelines for reporting GHG emissions, 2nd edition, 2011&quot;,
+    &quot;value&quot; : &quot;IPIECA’s Petroleum Industry Guidelines for reporting GHG emissions, 2nd edition, 2011&quot;
+  }, {
+    &quot;name&quot; : &quot;ISO 14064-1&quot;,
+    &quot;developerName&quot; : &quot;ISO 14064-1&quot;,
+    &quot;value&quot; : &quot;ISO 14064-1&quot;
+  }, {
+    &quot;name&quot; : &quot;Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)&quot;,
+    &quot;developerName&quot; : &quot;Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)&quot;,
+    &quot;value&quot; : &quot;Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)&quot;
+  }, {
+    &quot;name&quot; : &quot;Korea GHG and Energy Target Management System Operating Guidelines&quot;,
+    &quot;developerName&quot; : &quot;Korea GHG and Energy Target Management System Operating Guidelines&quot;,
+    &quot;value&quot; : &quot;Korea GHG and Energy Target Management System Operating Guidelines&quot;
+  }, {
+    &quot;name&quot; : &quot;National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)&quot;,
+    &quot;developerName&quot; : &quot;National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)&quot;,
+    &quot;value&quot; : &quot;National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)&quot;
+  }, {
+    &quot;name&quot; : &quot;New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting&quot;,
+    &quot;developerName&quot; : &quot;New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting&quot;,
+    &quot;value&quot; : &quot;New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting&quot;
+  }, {
+    &quot;name&quot; : &quot;Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)&quot;,
+    &quot;developerName&quot; : &quot;Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)&quot;,
+    &quot;value&quot; : &quot;Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)&quot;
+  }, {
+    &quot;name&quot; : &quot;Programa GEI Mexico&quot;,
+    &quot;developerName&quot; : &quot;Programa GEI Mexico&quot;,
+    &quot;value&quot; : &quot;Programa GEI Mexico&quot;
+  }, {
+    &quot;name&quot; : &quot;Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)&quot;,
+    &quot;developerName&quot; : &quot;Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)&quot;,
+    &quot;value&quot; : &quot;Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)&quot;
+  }, {
+    &quot;name&quot; : &quot;Regional Greenhouse Gas Initiative (RGGI) Model Rule&quot;,
+    &quot;developerName&quot; : &quot;Regional Greenhouse Gas Initiative (RGGI) Model Rule&quot;,
+    &quot;value&quot; : &quot;Regional Greenhouse Gas Initiative (RGGI) Model Rule&quot;
+  }, {
+    &quot;name&quot; : &quot;Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies&quot;,
+    &quot;developerName&quot; : &quot;Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies&quot;,
+    &quot;value&quot; : &quot;Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies&quot;
+  }, {
+    &quot;name&quot; : &quot;Taiwan - GHG Reduction Act&quot;,
+    &quot;developerName&quot; : &quot;Taiwan - GHG Reduction Act&quot;,
+    &quot;value&quot; : &quot;Taiwan - GHG Reduction Act&quot;
+  }, {
+    &quot;name&quot; : &quot;Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization&quot;,
+    &quot;developerName&quot; : &quot;Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization&quot;,
+    &quot;value&quot; : &quot;Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization&quot;
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry: Electric Power Sector (EPS) Protocol&quot;,
+    &quot;developerName&quot; : &quot;The Climate Registry: Electric Power Sector (EPS) Protocol&quot;,
+    &quot;value&quot; : &quot;The Climate Registry: Electric Power Sector (EPS) Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry: General Reporting Protocol&quot;,
+    &quot;developerName&quot; : &quot;The Climate Registry: General Reporting Protocol&quot;,
+    &quot;value&quot; : &quot;The Climate Registry: General Reporting Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry: Local Government Operations (LGO) Protocol&quot;,
+    &quot;developerName&quot; : &quot;The Climate Registry: Local Government Operations (LGO) Protocol&quot;,
+    &quot;value&quot; : &quot;The Climate Registry: Local Government Operations (LGO) Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry: Oil &amp; Gas Protocol&quot;,
+    &quot;developerName&quot; : &quot;The Climate Registry: Oil &amp; Gas Protocol&quot;,
+    &quot;value&quot; : &quot;The Climate Registry: Oil &amp; Gas Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;The Cool Farm Tool&quot;,
+    &quot;developerName&quot; : &quot;The Cool Farm Tool&quot;,
+    &quot;value&quot; : &quot;The Cool Farm Tool&quot;
+  }, {
+    &quot;name&quot; : &quot;The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations&quot;,
+    &quot;developerName&quot; : &quot;The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations&quot;,
+    &quot;value&quot; : &quot;The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations&quot;
+  }, {
+    &quot;name&quot; : &quot;The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition)&quot;,
+    &quot;developerName&quot; : &quot;The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition)&quot;,
+    &quot;value&quot; : &quot;The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition)&quot;
+  }, {
+    &quot;name&quot; : &quot;The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector&quot;,
+    &quot;developerName&quot; : &quot;The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector&quot;,
+    &quot;value&quot; : &quot;The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector&quot;
+  }, {
+    &quot;name&quot; : &quot;The Greenhouse Gas Protocol: Public Sector Standard&quot;,
+    &quot;developerName&quot; : &quot;The Greenhouse Gas Protocol: Public Sector Standard&quot;,
+    &quot;value&quot; : &quot;The Greenhouse Gas Protocol: Public Sector Standard&quot;
+  }, {
+    &quot;name&quot; : &quot;The Greenhouse Gas Protocol: Scope 2 Guidance&quot;,
+    &quot;developerName&quot; : &quot;The Greenhouse Gas Protocol: Scope 2 Guidance&quot;,
+    &quot;value&quot; : &quot;The Greenhouse Gas Protocol: Scope 2 Guidance&quot;
+  }, {
+    &quot;name&quot; : &quot;The Tokyo Cap-and Trade Program&quot;,
+    &quot;developerName&quot; : &quot;The Tokyo Cap-and Trade Program&quot;,
+    &quot;value&quot; : &quot;The Tokyo Cap-and Trade Program&quot;
+  }, {
+    &quot;name&quot; : &quot;Toitū carbonreduce programme&quot;,
+    &quot;developerName&quot; : &quot;Toitū carbonreduce programme&quot;,
+    &quot;value&quot; : &quot;Toitū carbonreduce programme&quot;
+  }, {
+    &quot;name&quot; : &quot;Toitū carbonzero programme&quot;,
+    &quot;developerName&quot; : &quot;Toitū carbonzero programme&quot;,
+    &quot;value&quot; : &quot;Toitū carbonzero programme&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, and Industrial Gases&quot;,
+    &quot;developerName&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, and Industrial Gases&quot;,
+    &quot;value&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, and Industrial Gases&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Events and Conferences&quot;,
+    &quot;developerName&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Events and Conferences&quot;,
+    &quot;value&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Events and Conferences&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Purchased Electricity&quot;,
+    &quot;developerName&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Purchased Electricity&quot;,
+    &quot;value&quot; : &quot;US EPA Center for Corporate Climate Leadership: Indirect Emissions From Purchased Electricity&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Stationary Combustion Sources&quot;,
+    &quot;developerName&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Stationary Combustion Sources&quot;,
+    &quot;value&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Stationary Combustion Sources&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Mobile Combustion Sources&quot;,
+    &quot;developerName&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Mobile Combustion Sources&quot;,
+    &quot;value&quot; : &quot;US EPA Center for Corporate Climate Leadership: Direct Emissions from Mobile Combustion Sources&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Mandatory Greenhouse Gas Reporting Rule&quot;,
+    &quot;developerName&quot; : &quot;US EPA Mandatory Greenhouse Gas Reporting Rule&quot;,
+    &quot;value&quot; : &quot;US EPA Mandatory Greenhouse Gas Reporting Rule&quot;
+  }, {
+    &quot;name&quot; : &quot;US EPA Emissions &amp; Generation Resource Integrated Database (eGRID)&quot;,
+    &quot;developerName&quot; : &quot;US EPA Emissions &amp; Generation Resource Integrated Database (eGRID)&quot;,
+    &quot;value&quot; : &quot;US EPA Emissions &amp; Generation Resource Integrated Database (eGRID)&quot;
+  }, {
+    &quot;name&quot; : &quot;VfU (Verein fur Umweltmanagement) Indicators Standard&quot;,
+    &quot;developerName&quot; : &quot;VfU (Verein fur Umweltmanagement) Indicators Standard&quot;,
+    &quot;value&quot; : &quot;VfU (Verein fur Umweltmanagement) Indicators Standard&quot;
+  }, {
+    &quot;name&quot; : &quot;WBCSD: The Cement CO2 and Energy Protocol&quot;,
+    &quot;developerName&quot; : &quot;WBCSD: The Cement CO2 and Energy Protocol&quot;,
+    &quot;value&quot; : &quot;WBCSD: The Cement CO2 and Energy Protocol&quot;
+  }, {
+    &quot;name&quot; : &quot;World Steel Association CO2 emissions data collection guidelines&quot;,
+    &quot;developerName&quot; : &quot;World Steel Association CO2 emissions data collection guidelines&quot;,
+    &quot;value&quot; : &quot;World Steel Association CO2 emissions data collection guidelines&quot;
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;developerName&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>NZCDCHCDP__C5D3</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>CustomLWC1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;CustomLWC1&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;cfC5FC&quot;,
+  &quot;bStandalone&quot; : true,
+  &quot;customAttributes&quot; : [ ]
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Custom Lightning Web Component</type>
+            </childElements>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>C5Guidance</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Guidance&quot;,
+  &quot;collapse&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Block</type>
+        </childElements>
+        <designerCustomizationType>Discovery Framework</designerCustomizationType>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>C5 Emissions methodology</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;label&quot; : &quot;C5 Emissions methodology&quot;,
+  &quot;validationRequired&quot; : true,
+  &quot;previousLabel&quot; : &quot;Previous&quot;,
+  &quot;previousWidth&quot; : 3,
+  &quot;nextLabel&quot; : &quot;Next&quot;,
+  &quot;nextWidth&quot; : 3,
+  &quot;cancelLabel&quot; : &quot;Cancel&quot;,
+  &quot;cancelMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;saveLabel&quot; : &quot;Save for later&quot;,
+  &quot;saveMessage&quot; : &quot;Are you sure you want to save it for later?&quot;,
+  &quot;completeLabel&quot; : &quot;Complete&quot;,
+  &quot;completeMessage&quot; : &quot;Are you sure you want to complete the script?&quot;,
+  &quot;instruction&quot; : &quot;&quot;,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteTimeout&quot; : 30000,
+  &quot;remoteOptions&quot; : { },
+  &quot;knowledgeOptions&quot; : {
+    &quot;language&quot; : &quot;English&quot;,
+    &quot;publishStatus&quot; : &quot;Online&quot;,
+    &quot;keyword&quot; : &quot;&quot;,
+    &quot;dataCategoryCriteria&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;typeFilter&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;instructionKey&quot; : &quot;&quot;,
+  &quot;chartLabel&quot; : null,
+  &quot;allowSaveForLater&quot; : true,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Step</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>C5D2DRTransformAction</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;C5D2DRTransformAction&quot;,
+  &quot;ignoreCache&quot; : false,
+  &quot;bundle&quot; : &quot;C5D2DR&quot;,
+  &quot;remoteTimeout&quot; : 30000,
+  &quot;sendJSONPath&quot; : &quot;C5D2Resp&quot;,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;inProgressMessage&quot; : &quot;In Progress&quot;,
+  &quot;postMessage&quot; : &quot;Done&quot;,
+  &quot;failureNextLabel&quot; : &quot;Continue&quot;,
+  &quot;failureAbortLabel&quot; : &quot;Abort&quot;,
+  &quot;failureGoBackLabel&quot; : &quot;Go Back&quot;,
+  &quot;failureAbortMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;validationRequired&quot; : &quot;Submit&quot;,
+  &quot;redirectPageName&quot; : &quot;&quot;,
+  &quot;redirectTemplateUrl&quot; : &quot;vlcAcknowledge.html&quot;,
+  &quot;redirectNextLabel&quot; : &quot;Next&quot;,
+  &quot;redirectNextWidth&quot; : 3,
+  &quot;redirectPreviousLabel&quot; : &quot;Previous&quot;,
+  &quot;redirectPreviousWidth&quot; : 3,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;show&quot; : null,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;enableDefaultAbort&quot; : false,
+  &quot;enableActionMessage&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>0.0</sequenceNumber>
+        <type>DataRaptor Transform Action</type>
+    </omniProcessElements>
+    <omniProcessType>OmniScript</omniProcessType>
+    <propertySetConfig>{
+  &quot;persistentComponent&quot; : [ {
+    &quot;render&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;sendJSONPath&quot; : &quot;&quot;,
+    &quot;sendJSONNode&quot; : &quot;&quot;,
+    &quot;responseJSONPath&quot; : &quot;&quot;,
+    &quot;responseJSONNode&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcCart&quot;,
+    &quot;itemsKey&quot; : &quot;cartItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;vlcProductConfig.html&quot;,
+      &quot;modalController&quot; : &quot;ModalProductCtrl&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  }, {
+    &quot;render&quot; : false,
+    &quot;dispOutsideOmni&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcKnowledge&quot;,
+    &quot;itemsKey&quot; : &quot;knowledgeItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;&quot;,
+      &quot;modalController&quot; : &quot;&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  } ],
+  &quot;allowSaveForLater&quot; : true,
+  &quot;saveNameTemplate&quot; : null,
+  &quot;saveExpireInDays&quot; : null,
+  &quot;saveForLaterRedirectPageName&quot; : &quot;sflRedirect&quot;,
+  &quot;saveForLaterRedirectTemplateUrl&quot; : &quot;vlcSaveForLaterAcknowledge.html&quot;,
+  &quot;saveContentEncoded&quot; : false,
+  &quot;saveObjectId&quot; : &quot;%ContextId%&quot;,
+  &quot;saveURLPatterns&quot; : { },
+  &quot;autoSaveOnStepNext&quot; : false,
+  &quot;elementTypeToHTMLTemplateMapping&quot; : { },
+  &quot;seedDataJSON&quot; : { },
+  &quot;trackingCustomData&quot; : { },
+  &quot;enableKnowledge&quot; : false,
+  &quot;bLK&quot; : false,
+  &quot;lkObjName&quot; : null,
+  &quot;knowledgeArticleTypeQueryFieldsMap&quot; : { },
+  &quot;timeTracking&quot; : false,
+  &quot;hideStepChart&quot; : false,
+  &quot;mergeSavedData&quot; : false,
+  &quot;visualforcePagesAvailableInPreview&quot; : { },
+  &quot;cancelType&quot; : &quot;SObject&quot;,
+  &quot;allowCancel&quot; : true,
+  &quot;cancelSource&quot; : &quot;%ContextId%&quot;,
+  &quot;cancelRedirectPageName&quot; : &quot;OmniScriptCancelled&quot;,
+  &quot;cancelRedirectTemplateUrl&quot; : &quot;vlcCancelled.html&quot;,
+  &quot;consoleTabLabel&quot; : &quot;New&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;autoFocus&quot; : false,
+  &quot;currencyCode&quot; : &quot;&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;rtpSeed&quot; : false,
+  &quot;consoleTabTitle&quot; : null,
+  &quot;consoleTabIcon&quot; : &quot;custom:custom18&quot;,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ]
+  },
+  &quot;stylesheet&quot; : {
+    &quot;newport&quot; : &quot;&quot;,
+    &quot;lightning&quot; : &quot;&quot;,
+    &quot;newportRtl&quot; : &quot;&quot;,
+    &quot;lightningRtl&quot; : &quot;&quot;
+  },
+  &quot;stepChartPlacement&quot; : &quot;left&quot;,
+  &quot;disableUnloadWarn&quot; : true,
+  &quot;scrollBehavior&quot; : &quot;auto&quot;
+}</propertySetConfig>
+    <subType>C5</subType>
+    <type>C5</type>
+    <uniqueName>C5_C5_English_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <webComponentKey>e4b844d2-4a3a-54eb-8b97-09fcd0662f37</webComponentKey>
+</OmniScript>

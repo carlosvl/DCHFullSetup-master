@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>CGUAAUEnvironmentalImpactsFC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Environmental%20Impacts%20in%20the%20Supply%20Chain%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECG-AA-430a.1a%20,%20CG-AA-430a.1b%20,%20CG-AA-430a.1c%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20discuss,%20where%20applicable,%20its%20supply%20chain%20risks%20associated%20with%20discharge%20of%20water%20from%20supplier%20facilities%20and%20describe%20how%20it%20manages%20these%20risks.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20scope%20of%20disclosure%20includes,%20but%20is%20not%20limited%20to:%20Environmental%20constraints,%20such%20as%20the%20ability%20to%20maintain%20compliance%20with%20regulations%20focused%20on%20the%20quality%20of%20effluent%20discharged%20to%20the%20environment,%20the%20ability%20to%20eliminate%20existing%20and%20emerging%20pollutants%20of%20concern,%20and%20the%20ability%20to%20maintain%20control%20over%20storm%20water%20dischargesOperational%20and/or%20financial%20constraints,%20such%20as%20increased%20liability%20and/or%20reputational%20risks,%20restrictions%20to%20discharges%20and/or%20increased%20operating%20costs%20due%20to%20regulation,%20stakeholder%20perceptions%20and%20concerns%20related%20to%20water%20discharges%20(e.g.,%20those%20from%20local%20communities,%20non-governmental%20organizations,%20and%20regulatory%20agencies),%20and%20the%20ability%20to%20obtain%20discharge%20rights%20or%20permitsHow%20risks%20may%20vary%20by%20discharge%20destinations,%20including%20surface%20water,%20groundwater,%20or%20wastewater%20utilities%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20briefly%20characterize%20the%20treatment%20methods%20used%20for%20wastewater%20discharge%20at%20supplier%20facilities,%20where%20treatment%20methods%20include:%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Primary%20treatment%20is%20defined%20as%20screening%20and%20settling&amp;mdash;clarification%20in%20which%20solids%20settle%20and%20oil%20and%20grease%20float.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Secondary%20treatment%20is%20defined%20as%20biological%20decomposition&amp;mdash;degradation%20of%20organic%20content%20with%20aerobic%20and/or%20anaerobic%20biological%20treatment.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Tertiary%20treatment%20is%20defined%20as%20any%20additional%20method%20to%20further%20improve%20water%20quality,%20such%20as%20disinfection,%20nutrient%20removal,%20or%20reverse%20osmosis/ultra%20filtration.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20may%20disclose%20the%20percentage%20(by%20volume)%20of%20water%20treated%20and%20returned%20to%20the%20environment%20by%20each%20treatment%20method.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20describe%20the%20reasons%20for%20choosing%20wastewater%20discharge%20requirements%20for%20supplier%20facilities,%20which%20may%20include,%20but%20are%20not%20limited%20to:%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20type%20of%20effluents%20being%20discharged%20from%20supplier%20facilities%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20regulatory%20or%20voluntary%20standards%20that%20the%20entity%20or%20its%20suppliers%20are%20subject%20to%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20environmental%20setting%20of%20supplier%20facilities%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20financial%20implications%20of%20choosing%20such%20wastewater%20standards%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20discuss%20how%20its%20wastewater%20discharge%20requirements%20address:%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Illegal%20substances%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Legally%20regulated%20substances%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Substances%20or%20discharge%20parameters%20that%20are%20not%20regulated%20or%20prohibited%20by%20law,%20but%20may%20be%20a%20specific%20pollutant%20or%20risk%20to%20textile%20manufacturing,%20such%20as%20use%20of%20pesticides,%20allergenic%20dyes,%20or%20tin-organic%20compounds,%20and%20pH%20value%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20may%20describe%20its%20procedure%20for%20testing%20wastewater%20quality%20at%20supplier%20facilities,%20including%20the%20frequency%20of%20testing,%20whether%20testing%20is%20done%20internally%20or%20externally,%20and%20the%20testing%20parameters%20used.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20may%20describe%20any%20practices,%20programs,%20technology,%20or%20methods%20it%20utilizes%20to%20manage%20and%20improve%20wastewater%20quality%20and%20chemical%20formulations%20used%20at%20its%20supplier%20facilities.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Relevant%20programs%20to%20discuss%20include%20adherence%20to%20certification%20schemes%20with%20wastewater%20discharge%20standards,%20including,%20but%20not%20limited%20to:%20the%20Zero%20Discharge%20of%20Hazardous%20Chemicals%20(ZDHC)%20Programme%20Wastewater%20Guidelines,%20BSR%20Sustainable%20Water%20Group%20Water%20Quality%20Guidelines,%20and%20The%20Institute%20of%20Public%20&amp;amp;%20Environmental%20Affairs%20(IPE)%20wastewater%20guidelines.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Disclosure%20is%20aligned%20with%20the%20SAC&amp;rsquo;s%20Higg%20FEM,%20Section%204%20-%20Wastewater/Effluent,%20Level%201,%20Question%202.&amp;nbsp;%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;CGUAAUFC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;CGUAAUEnvironmentalImpactsFC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

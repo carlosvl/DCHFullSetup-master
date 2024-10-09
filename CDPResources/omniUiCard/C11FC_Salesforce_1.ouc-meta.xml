@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C11FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%0A%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3EC11%20Carbon%20pricing%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#236fa1;%22%3E%3Cstrong%3E(C11.1)%20Are%20any%20of%20your%20operations%20or%20activities%20regulated%20by%20a%20carbon%20pricing%20system%20(i.e.%20ETS,%20Cap%20&amp;amp;%20Trade%20or%20Carbon%20Tax)?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECompanies%20are%20requested%20to%20report%20whether%20they%20are%20subject%20to,%20or%20potentially%20subject%20to,%20mandatory%20carbon%20pricing%20systems.%20This%20question%20has%20evolved%20to%20include%20whether%20companies%20are%20currently%20regulated%20by%20a%20carbon%20pricing%20system%20&amp;ndash;%20including%20carbon%20markets%20or%20taxation%20&amp;ndash;%20or%20whether%20they%20expect%20to%20be%20regulated%20in%20the%20future.%20Companies%20responding%20&amp;rdquo;Yes&amp;rdquo;%20will%20be%20further%20prompted%20to%20identify%20the%20systems%20in%20which%20they%20participate%20and%20to%20provide%20additional%20details%20about%20their%20exposure%20to%20these%20systems.%20This%20information%20allows%20investors%20to%20consistently%20track%20and%20analyze%20corporate%20expectations%20and%20the%20associated%20costs%20of%20carbon%20pricing%20regulations,%20and%20forces%20unregulated%20companies%20to%20consider%20potential%20future%20exposure.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ECompanies%20responding%20&amp;rdquo;Yes&amp;rdquo;%20will%20be%20further%20prompted%20to%20identify%20the%20systems%20in%20which%20they%20participate%20and%20to%20provide%20additional%20details%20about%20their%20exposure%20to%20these%20systems.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.1a)%20Select%20the%20carbon%20pricing%20regulation(s)%20which%20impacts%20your%20operations.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EAs%20the%20number%20of%20jurisdictions%20with%20carbon%20pricing%20policies%20has%20doubled%20over%20the%20last%20decade,%20users%20of%20CDP%20data%20are%20interested%20in%20understanding%20how%20companies%20are%20affected%20by%20these%20schemes.%20This%20question%20provides%20investors%20and%20data%20users%20with%20a%20sense%20of%20the%20regulatory%20environments%20in%20which%20companies%20operate%20and%20the%20potential%20for%20future%20regulation%20which%20may%20impact%20a%20company&apos;s%20operations.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ESelect%20from%20the%20carbon%20pricing%20regulation(s)%20which%20impacts%20your%20operations%20listed%20or%20use%20&amp;ldquo;Other,%20please%20specify&amp;rdquo;%20if%20the%20carbon%20pricing%20regulation(s)%20you%20are%20using%20is%20not%20included.%3C/li%3E%0A%3Cli%3EIf%20you%20select%20&amp;ldquo;Other%20carbon%20tax/ETS,%20please%20specify,&amp;rdquo;%20identify%20the%20carbon%20pricing%20regulation(s)%20which%20impacts%20your%20operations.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.1b)%20Complete%20the%20following%20table%20for%20each%20of%20the%20emissions%20trading%20schemes%20you%20are%20regulated%20by.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EAs%20the%20number%20of%20jurisdictions%20with%20carbon%20pricing%20policies%20has%20doubled%20over%20the%20last%20decade,%20users%20of%20CDP%20data%20are%20interested%20in%20understanding%20how%20companies%20are%20affected%20by%20these%20schemes.%20This%20question%20provides%20investors%20and%20data%20users%20with%20a%20sense%20of%20the%20regulatory%20environments%20in%20which%20companies%20operate%20and%20the%20potential%20for%20future%20regulation%20which%20may%20impact%20a%20company&apos;s%20operations.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EAlthough%20some%20emission%20trading%20schemes%20may%20apply%20solely%20to%20the%20operators%20of%20facilities,%20the%20financial%20position%20of%20facility%20owners%20is%20also%20affected%20indirectly%20by%20the%20operation%20of%20the%20scheme.%20This%20question%20therefore%20applies%20to%20both%20owners%20and%20operators%20of%20facilities%20covered%20by%20trading%20schemes.%3C/li%3E%0A%3Cli%3EEven%20if%20your%20company%20does%20not%20wholly%20own%20facilities,%20please%20give%20the%20total%20number%20of%20emissions%20and%20allowances.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.1c)%20Complete%20the%20following%20table%20for%20each%20of%20the%20tax%20systems%20you%20are%20regulated%20by.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20will%20allow%20investors%20to%20consistently%20track%20and%20analyze,%20in%20a%20detailed%20and%20consistent%20manner,%20the%20corporations%20participating%20in%20carbon%20tax%20systems%20as%20well%20as%20what%20costs%20they%20currently%20bear.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ECarbon%20taxes%20are%20intended%20to%20directly%20charge%20emitters%20for%20the%20cost%20of%20pollution.%20However,%20the%20policy%20application%20of%20this%20definition%20changes%20on%20a%20system-by-system%20basis%20and%20may%20affect%20sectors%20differently.%20For%20example,%20some%20policies%20may%20tax%20producers%20directly;%20others%20may%20attribute%20the%20cost%20to%20consumers%20of%20the%20processed%20fossil%20fuels%20(i.e.%20utilities);%20and%20others%20yet%20may%20tax%20users%20such%20as%20in%20the%20form%20of%20big%20businesses.%20This%20question%20asks%20for%20information%20only%20on%20your%20direct,%20Scope%201%20emissions%20that%20are%20subject%20to%20a%20carbon%20tax.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.1d)%20What%20is%20your%20strategy%20for%20complying%20with%20the%20systems%20you%20are%20regulated%20by%20or%20anticipate%20being%20regulated%20by?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20provides%20data%20users%20with%20insight%20into%20an%20organizations%20long-term%20compliance%20and%20regulatory%20risk%20management%20strategy%20for%20the%20carbon%20pricing%20systems%20they%20are%20regulated%20by%20or%20anticipate%20being%20regulated%20by.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Cdiv%20id=%22c11-1d%22%20class=%22content%22%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ESome%20of%20the%20options%20for%20compliance%20include%20emissions%20reductions%20strategies,%20efficiency%20upgrades,%20purchase%20of%20allowances%20and%20the%20purchase%20of%20carbon%20credits.%3C/li%3E%0A%3Cli%3EDepending%20on%20how%20long%20your%20company%20has%20been%20regulated%20by%20a%20carbon%20pricing%20system,%20efficiency%20upgrades%20may%20not%20provide%20the%20amount%20of%20reductions%20necessary%20to%20comply%20with%20regulations.%20If%20that%20is%20the%20case%20for%20your%20company,%20then%20you%20are%20also%20encouraged%20to%20detail%20your%20company&amp;rsquo;s%20long-term%20compliance%20and%20regulatory%20risk%20management%20strategy;%20including%20the%20specific%20metric(s)%20or%20mechanism(s)%20used%20&amp;ndash;%20for%20example,%20a%20dedicated%20carbon%20risk%20management%20team%20or%20the%20use%20of%20an%20internal%20carbon%20price.%20If%20you%20use%20an%20internal%20carbon%20price,%20please%20make%20note%20of%20this%20here%20and%20provide%20specific%20details%20the%20subsequent%20question%20(C11.3a).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.2)%20Has%20your%20organization%20originated%20or%20purchased%20any%20project-based%20carbon%20credits%20within%20the%20reporting%20period?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECarbon%20credits%20are%20used%20by%20organizations%20for%20the%20purposes%20of%20compliance%20or%20as%20voluntary%20carbon%20offsets%20and%20can%20support%20the%20transition%20to%20a%20low%20carbon%20future.%20Data%20users%20are%20interested%20in%20learning%20about%20organizations%20who%20have%20utilized%20carbon%20credits%20either%20by%20originating%20or%20purchasing.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EThis%20question%20only%20applies%20to%20companies%20that%20have%20originated%20carbon%20credits%20or%20who%20have%20purchased%20them%20for%20the%20purposes%20of%20compliance%20or%20as%20voluntary%20carbon%20offsets.%3C/li%3E%0A%3Cli%3EIt%20is%20not%20intended%20to%20capture%20trading%20desk%20activity%20and%20therefore%20if%20your%20only%20reason%20for%20purchasing%20credits%20is%20to%20re-sell%20them,%20you%20should%20answer%20&amp;ldquo;No&amp;rdquo;%20to%20this%20question.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.2a)%20Provide%20details%20of%20the%20project-based%20carbon%20credits%20originated%20or%20purchased%20by%20your%20organization%20in%20the%20reporting%20period.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECarbon%20credits%20can%20be%20originated%20from%20a%20variety%20of%20projects%20and%20are%20verified%20to%20a%20number%20of%20standards,%20data%20users%20are%20interested%20in%20learning%20about%20the%20scope%20of%20project%20types%20that%20are%20contributing%20to%20credit%20origination%20and%20purchase.%20Data%20users%20are%20also%20requesting%20information%20on%20the%20objectives%20of%20organizations%20who%20have%20originated%20or%20purchased%20carbon%20credits%20and%20the%20extent%20to%20which%20they%20are%20used%20to%20achieve%20these%20objectives.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3E&amp;nbsp;If%20you%20select%20&amp;ldquo;Other,%20please%20specify&amp;rdquo;,%20provide%20a%20label%20for%20the%20Project%20type,%20Verified%20to%20which%20standard%20or%20Purpose,%20e.g.%20compliance.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.3)%20Does%20your%20organization%20use%20an%20internal%20price%20on%20carbon?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EInternal%20carbon%20pricing%20has%20emerged%20as%20a%20multifaceted%20tool%20that%20supports%20companies%20in%20assessing%20climate-related%20risks%20and%20opportunities.%20Investors%20want%20to%20know%20more%20about%20organizations%20who%20attribute%20a%20monetary%20value%20to%20these%20risks%20and%20translate%20them%20into%20a%20uniform%20metric.%3C/p%3E%0A%3Cp%3E%3Cstrong%3E&amp;nbsp;%3C/strong%3E%3C/p%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C11.3a)%20Provide%20details%20of%20how%20your%20organization%20uses%20an%20internal%20price%20on%20carbon.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EInvestors%20have%20requested%20data%20on%20why%20and%20how%20internal%20carbon%20pricing%20is%20used%20as%20a%20tool%20to%20assess%20and%20manage%20carbon-related%20risks%20and%20opportunities%20within%20a%20business&amp;rsquo;%20operations,%20supply%20chain,%20and%20investments.%20This%20information%20can%20help%20an%20investor%20gauge%20the%20efficacy%20of%20a%20company&amp;rsquo;s%20application%20of%20the%20carbon%20price%20in%20terms%20of%20meeting%20its%20objectives.%3C/p%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C11FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C11FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

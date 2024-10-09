@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
+    <designerCustomizationType>Discovery Framework</designerCustomizationType>
+    <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+    <elementTypeComponentMapping>{
+  &quot;ElementTypeToHTMLTemplateList&quot; : [ ]
+}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>true</isWebCompEnabled>
+    <language>English</language>
+    <name>C0</name>
+    <omniProcessElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D1</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.1) Give a general description and introduction to your organization.&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0.0,
+  &quot;maxLength&quot; : 5000.0,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0.0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>0.0</sequenceNumber>
+            <type>Text Area</type>
+            <uniqueIndex>NZCDCHCDP__C0D1</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D2D1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Start date&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;dateType&quot; : &quot;string&quot;,
+  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
+  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true,
+  &quot;minDate&quot; : &quot;&quot;,
+  &quot;maxDate&quot; : &quot;&quot;
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Date</type>
+                <uniqueIndex>NZCDCHCDP__C0D2D1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D2D2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;End date&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;dateType&quot; : &quot;string&quot;,
+  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
+  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true,
+  &quot;minDate&quot; : &quot;&quot;,
+  &quot;maxDate&quot; : &quot;&quot;
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Date</type>
+                <uniqueIndex>NZCDCHCDP__C0D2D2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D2D3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Indicate if you are providing emissions data for past reporting years&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C0D2D3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D2D4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Select the number of past reporting years you will be providing emissions data for&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;1 year&quot;,
+    &quot;value&quot; : &quot;1 year&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;2 years&quot;,
+    &quot;value&quot; : &quot;2 years&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;3 years&quot;,
+    &quot;value&quot; : &quot;3 years&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C0D2D4</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D2</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.2) State the start and end date of the year for which you are reporting data.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 4
+}</propertySetConfig>
+            <sequenceNumber>1.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C0D2</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D3</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.3) Select the countries/areas in which you operate.&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Algeria&quot;,
+    &quot;developerName&quot; : &quot;Algeria&quot;,
+    &quot;value&quot; : &quot;Algeria&quot;
+  }, {
+    &quot;name&quot; : &quot;Argentina&quot;,
+    &quot;developerName&quot; : &quot;Argentina&quot;,
+    &quot;value&quot; : &quot;Argentina&quot;
+  }, {
+    &quot;name&quot; : &quot;Australia&quot;,
+    &quot;developerName&quot; : &quot;Australia&quot;,
+    &quot;value&quot; : &quot;Australia&quot;
+  }, {
+    &quot;name&quot; : &quot;Austria&quot;,
+    &quot;developerName&quot; : &quot;Austria&quot;,
+    &quot;value&quot; : &quot;Austria&quot;
+  }, {
+    &quot;name&quot; : &quot;Belarus&quot;,
+    &quot;developerName&quot; : &quot;Belarus&quot;,
+    &quot;value&quot; : &quot;Belarus&quot;
+  }, {
+    &quot;name&quot; : &quot;Belgium&quot;,
+    &quot;developerName&quot; : &quot;Belgium&quot;,
+    &quot;value&quot; : &quot;Belgium&quot;
+  }, {
+    &quot;name&quot; : &quot;Brazil&quot;,
+    &quot;developerName&quot; : &quot;Brazil&quot;,
+    &quot;value&quot; : &quot;Brazil&quot;
+  }, {
+    &quot;name&quot; : &quot;Bulgaria&quot;,
+    &quot;developerName&quot; : &quot;Bulgaria&quot;,
+    &quot;value&quot; : &quot;Bulgaria&quot;
+  }, {
+    &quot;name&quot; : &quot;Canada&quot;,
+    &quot;developerName&quot; : &quot;Canada&quot;,
+    &quot;value&quot; : &quot;Canada&quot;
+  }, {
+    &quot;name&quot; : &quot;Chile&quot;,
+    &quot;developerName&quot; : &quot;Chile&quot;,
+    &quot;value&quot; : &quot;Chile&quot;
+  }, {
+    &quot;name&quot; : &quot;China&quot;,
+    &quot;developerName&quot; : &quot;China&quot;,
+    &quot;value&quot; : &quot;China&quot;
+  }, {
+    &quot;name&quot; : &quot;China, Hong Kong Special Administrative Region&quot;,
+    &quot;developerName&quot; : &quot;China, Hong Kong Special Administrative Region&quot;,
+    &quot;value&quot; : &quot;China, Hong Kong Special Administrative Region&quot;
+  }, {
+    &quot;name&quot; : &quot;Colombia&quot;,
+    &quot;developerName&quot; : &quot;Colombia&quot;,
+    &quot;value&quot; : &quot;Colombia&quot;
+  }, {
+    &quot;name&quot; : &quot;Costa Rica&quot;,
+    &quot;developerName&quot; : &quot;Costa Rica&quot;,
+    &quot;value&quot; : &quot;Costa Rica&quot;
+  }, {
+    &quot;name&quot; : &quot;Croatia&quot;,
+    &quot;developerName&quot; : &quot;Croatia&quot;,
+    &quot;value&quot; : &quot;Croatia&quot;
+  }, {
+    &quot;name&quot; : &quot;Denmark&quot;,
+    &quot;developerName&quot; : &quot;Denmark&quot;,
+    &quot;value&quot; : &quot;Denmark&quot;
+  }, {
+    &quot;name&quot; : &quot;Ecuador&quot;,
+    &quot;developerName&quot; : &quot;Ecuador&quot;,
+    &quot;value&quot; : &quot;Ecuador&quot;
+  }, {
+    &quot;name&quot; : &quot;Egypt&quot;,
+    &quot;developerName&quot; : &quot;Egypt&quot;,
+    &quot;value&quot; : &quot;Egypt&quot;
+  }, {
+    &quot;name&quot; : &quot;Estonia&quot;,
+    &quot;developerName&quot; : &quot;Estonia&quot;,
+    &quot;value&quot; : &quot;Estonia&quot;
+  }, {
+    &quot;name&quot; : &quot;Finland&quot;,
+    &quot;developerName&quot; : &quot;Finland&quot;,
+    &quot;value&quot; : &quot;Finland&quot;
+  }, {
+    &quot;name&quot; : &quot;France&quot;,
+    &quot;developerName&quot; : &quot;France&quot;,
+    &quot;value&quot; : &quot;France&quot;
+  }, {
+    &quot;name&quot; : &quot;Germany&quot;,
+    &quot;developerName&quot; : &quot;Germany&quot;,
+    &quot;value&quot; : &quot;Germany&quot;
+  }, {
+    &quot;name&quot; : &quot;Greece&quot;,
+    &quot;developerName&quot; : &quot;Greece&quot;,
+    &quot;value&quot; : &quot;Greece&quot;
+  }, {
+    &quot;name&quot; : &quot;Hungary&quot;,
+    &quot;developerName&quot; : &quot;Hungary&quot;,
+    &quot;value&quot; : &quot;Hungary&quot;
+  }, {
+    &quot;name&quot; : &quot;India&quot;,
+    &quot;developerName&quot; : &quot;India&quot;,
+    &quot;value&quot; : &quot;India&quot;
+  }, {
+    &quot;name&quot; : &quot;Indonesia&quot;,
+    &quot;developerName&quot; : &quot;Indonesia&quot;,
+    &quot;value&quot; : &quot;Indonesia&quot;
+  }, {
+    &quot;name&quot; : &quot;Ireland&quot;,
+    &quot;developerName&quot; : &quot;Ireland&quot;,
+    &quot;value&quot; : &quot;Ireland&quot;
+  }, {
+    &quot;name&quot; : &quot;Israel&quot;,
+    &quot;developerName&quot; : &quot;Israel&quot;,
+    &quot;value&quot; : &quot;Israel&quot;
+  }, {
+    &quot;name&quot; : &quot;Italy&quot;,
+    &quot;developerName&quot; : &quot;Italy&quot;,
+    &quot;value&quot; : &quot;Italy&quot;
+  }, {
+    &quot;name&quot; : &quot;Japan&quot;,
+    &quot;developerName&quot; : &quot;Japan&quot;,
+    &quot;value&quot; : &quot;Japan&quot;
+  }, {
+    &quot;name&quot; : &quot;Kazakhstan&quot;,
+    &quot;developerName&quot; : &quot;Kazakhstan&quot;,
+    &quot;value&quot; : &quot;Kazakhstan&quot;
+  }, {
+    &quot;name&quot; : &quot;Latvia&quot;,
+    &quot;developerName&quot; : &quot;Latvia&quot;,
+    &quot;value&quot; : &quot;Latvia&quot;
+  }, {
+    &quot;name&quot; : &quot;Lebanon&quot;,
+    &quot;developerName&quot; : &quot;Lebanon&quot;,
+    &quot;value&quot; : &quot;Lebanon&quot;
+  }, {
+    &quot;name&quot; : &quot;Lithuania&quot;,
+    &quot;developerName&quot; : &quot;Lithuania&quot;,
+    &quot;value&quot; : &quot;Lithuania&quot;
+  }, {
+    &quot;name&quot; : &quot;Luxembourg&quot;,
+    &quot;developerName&quot; : &quot;Luxembourg&quot;,
+    &quot;value&quot; : &quot;Luxembourg&quot;
+  }, {
+    &quot;name&quot; : &quot;Malaysia&quot;,
+    &quot;developerName&quot; : &quot;Malaysia&quot;,
+    &quot;value&quot; : &quot;Malaysia&quot;
+  }, {
+    &quot;name&quot; : &quot;Mexico&quot;,
+    &quot;developerName&quot; : &quot;Mexico&quot;,
+    &quot;value&quot; : &quot;Mexico&quot;
+  }, {
+    &quot;name&quot; : &quot;Morocco&quot;,
+    &quot;developerName&quot; : &quot;Morocco&quot;,
+    &quot;value&quot; : &quot;Morocco&quot;
+  }, {
+    &quot;name&quot; : &quot;Netherlands&quot;,
+    &quot;developerName&quot; : &quot;Netherlands&quot;,
+    &quot;value&quot; : &quot;Netherlands&quot;
+  }, {
+    &quot;name&quot; : &quot;New Zealand&quot;,
+    &quot;developerName&quot; : &quot;New Zealand&quot;,
+    &quot;value&quot; : &quot;New Zealand&quot;
+  }, {
+    &quot;name&quot; : &quot;Norway&quot;,
+    &quot;developerName&quot; : &quot;Norway&quot;,
+    &quot;value&quot; : &quot;Norway&quot;
+  }, {
+    &quot;name&quot; : &quot;Pakistan&quot;,
+    &quot;developerName&quot; : &quot;Pakistan&quot;,
+    &quot;value&quot; : &quot;Pakistan&quot;
+  }, {
+    &quot;name&quot; : &quot;Peru&quot;,
+    &quot;developerName&quot; : &quot;Peru&quot;,
+    &quot;value&quot; : &quot;Peru&quot;
+  }, {
+    &quot;name&quot; : &quot;Poland&quot;,
+    &quot;developerName&quot; : &quot;Poland&quot;,
+    &quot;value&quot; : &quot;Poland&quot;
+  }, {
+    &quot;name&quot; : &quot;Portugal&quot;,
+    &quot;developerName&quot; : &quot;Portugal&quot;,
+    &quot;value&quot; : &quot;Portugal&quot;
+  }, {
+    &quot;name&quot; : &quot;Puerto Rico&quot;,
+    &quot;developerName&quot; : &quot;Puerto Rico&quot;,
+    &quot;value&quot; : &quot;Puerto Rico&quot;
+  }, {
+    &quot;name&quot; : &quot;Republic of Korea&quot;,
+    &quot;developerName&quot; : &quot;Republic of Korea&quot;,
+    &quot;value&quot; : &quot;Republic of Korea&quot;
+  }, {
+    &quot;name&quot; : &quot;Romania&quot;,
+    &quot;developerName&quot; : &quot;Romania&quot;,
+    &quot;value&quot; : &quot;Romania&quot;
+  }, {
+    &quot;name&quot; : &quot;Russian Federation&quot;,
+    &quot;developerName&quot; : &quot;Russian Federation&quot;,
+    &quot;value&quot; : &quot;Russian Federation&quot;
+  }, {
+    &quot;name&quot; : &quot;Saudi Arabia&quot;,
+    &quot;developerName&quot; : &quot;Saudi Arabia&quot;,
+    &quot;value&quot; : &quot;Saudi Arabia&quot;
+  }, {
+    &quot;name&quot; : &quot;Senegal&quot;,
+    &quot;developerName&quot; : &quot;Senegal&quot;,
+    &quot;value&quot; : &quot;Senegal&quot;
+  }, {
+    &quot;name&quot; : &quot;Serbia&quot;,
+    &quot;developerName&quot; : &quot;Serbia&quot;,
+    &quot;value&quot; : &quot;Serbia&quot;
+  }, {
+    &quot;name&quot; : &quot;Singapore&quot;,
+    &quot;developerName&quot; : &quot;Singapore&quot;,
+    &quot;value&quot; : &quot;Singapore&quot;
+  }, {
+    &quot;name&quot; : &quot;Slovakia&quot;,
+    &quot;developerName&quot; : &quot;Slovakia&quot;,
+    &quot;value&quot; : &quot;Slovakia&quot;
+  }, {
+    &quot;name&quot; : &quot;Slovenia&quot;,
+    &quot;developerName&quot; : &quot;Slovenia&quot;,
+    &quot;value&quot; : &quot;Slovenia&quot;
+  }, {
+    &quot;name&quot; : &quot;South Africa&quot;,
+    &quot;developerName&quot; : &quot;South Africa&quot;,
+    &quot;value&quot; : &quot;South Africa&quot;
+  }, {
+    &quot;name&quot; : &quot;Spain&quot;,
+    &quot;developerName&quot; : &quot;Spain&quot;,
+    &quot;value&quot; : &quot;Spain&quot;
+  }, {
+    &quot;name&quot; : &quot;Sweden&quot;,
+    &quot;developerName&quot; : &quot;Sweden&quot;,
+    &quot;value&quot; : &quot;Sweden&quot;
+  }, {
+    &quot;name&quot; : &quot;Switzerland&quot;,
+    &quot;developerName&quot; : &quot;Switzerland&quot;,
+    &quot;value&quot; : &quot;Switzerland&quot;
+  }, {
+    &quot;name&quot; : &quot;Taiwan, Greater China&quot;,
+    &quot;developerName&quot; : &quot;Taiwan, Greater China&quot;,
+    &quot;value&quot; : &quot;Taiwan, Greater China&quot;
+  }, {
+    &quot;name&quot; : &quot;Thailand&quot;,
+    &quot;developerName&quot; : &quot;Thailand&quot;,
+    &quot;value&quot; : &quot;Thailand&quot;
+  }, {
+    &quot;name&quot; : &quot;Tunisia&quot;,
+    &quot;developerName&quot; : &quot;Tunisia&quot;,
+    &quot;value&quot; : &quot;Tunisia&quot;
+  }, {
+    &quot;name&quot; : &quot;Turkey&quot;,
+    &quot;developerName&quot; : &quot;Turkey&quot;,
+    &quot;value&quot; : &quot;Turkey&quot;
+  }, {
+    &quot;name&quot; : &quot;Ukraine&quot;,
+    &quot;developerName&quot; : &quot;Ukraine&quot;,
+    &quot;value&quot; : &quot;Ukraine&quot;
+  }, {
+    &quot;name&quot; : &quot;United Kingdom of Great Britain and Northern Ireland&quot;,
+    &quot;developerName&quot; : &quot;United Kingdom of Great Britain and Northern Ireland&quot;,
+    &quot;value&quot; : &quot;United Kingdom of Great Britain and Northern Ireland&quot;
+  }, {
+    &quot;name&quot; : &quot;United States of America&quot;,
+    &quot;developerName&quot; : &quot;United States of America&quot;,
+    &quot;value&quot; : &quot;United States of America&quot;
+  }, {
+    &quot;name&quot; : &quot;Venezuela (Bolivarian Republic of)&quot;,
+    &quot;developerName&quot; : &quot;Venezuela (Bolivarian Republic of)&quot;,
+    &quot;value&quot; : &quot;Venezuela (Bolivarian Republic of)&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>NZCDCHCDP__C0D3</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D4</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.4) Select the currency used for all financial information disclosed throughout your response.&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;AUD&quot;,
+    &quot;value&quot; : &quot;AUD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GBP&quot;,
+    &quot;value&quot; : &quot;GBP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;EUR&quot;,
+    &quot;value&quot; : &quot;EUR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;JPY&quot;,
+    &quot;value&quot; : &quot;JPY&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CHF&quot;,
+    &quot;value&quot; : &quot;CHF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;USD&quot;,
+    &quot;value&quot; : &quot;USD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AFN&quot;,
+    &quot;value&quot; : &quot;AFN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ALL&quot;,
+    &quot;value&quot; : &quot;ALL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DZD&quot;,
+    &quot;value&quot; : &quot;DZD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AOA&quot;,
+    &quot;value&quot; : &quot;AOA&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ARS&quot;,
+    &quot;value&quot; : &quot;ARS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AMD&quot;,
+    &quot;value&quot; : &quot;AMD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AWG&quot;,
+    &quot;value&quot; : &quot;AWG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AUD&quot;,
+    &quot;value&quot; : &quot;AUD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ATS&quot;,
+    &quot;value&quot; : &quot;ATS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BEF&quot;,
+    &quot;value&quot; : &quot;BEF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AZN&quot;,
+    &quot;value&quot; : &quot;AZN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BSD&quot;,
+    &quot;value&quot; : &quot;BSD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BHD&quot;,
+    &quot;value&quot; : &quot;BHD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BDT&quot;,
+    &quot;value&quot; : &quot;BDT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BBD&quot;,
+    &quot;value&quot; : &quot;BBD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BYR&quot;,
+    &quot;value&quot; : &quot;BYR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BZD&quot;,
+    &quot;value&quot; : &quot;BZD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BMD&quot;,
+    &quot;value&quot; : &quot;BMD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BTN&quot;,
+    &quot;value&quot; : &quot;BTN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BOB&quot;,
+    &quot;value&quot; : &quot;BOB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BAM&quot;,
+    &quot;value&quot; : &quot;BAM&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BWP&quot;,
+    &quot;value&quot; : &quot;BWP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BRL&quot;,
+    &quot;value&quot; : &quot;BRL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GBP&quot;,
+    &quot;value&quot; : &quot;GBP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BND&quot;,
+    &quot;value&quot; : &quot;BND&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BGN&quot;,
+    &quot;value&quot; : &quot;BGN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;BIF&quot;,
+    &quot;value&quot; : &quot;BIF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;XOF&quot;,
+    &quot;value&quot; : &quot;XOF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;XAF&quot;,
+    &quot;value&quot; : &quot;XAF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;XPF&quot;,
+    &quot;value&quot; : &quot;XPF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KHR&quot;,
+    &quot;value&quot; : &quot;KHR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CAD&quot;,
+    &quot;value&quot; : &quot;CAD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CVE&quot;,
+    &quot;value&quot; : &quot;CVE&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KYD&quot;,
+    &quot;value&quot; : &quot;KYD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CLP&quot;,
+    &quot;value&quot; : &quot;CLP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CNY&quot;,
+    &quot;value&quot; : &quot;CNY&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;COP&quot;,
+    &quot;value&quot; : &quot;COP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KMF&quot;,
+    &quot;value&quot; : &quot;KMF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CDF&quot;,
+    &quot;value&quot; : &quot;CDF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CRC&quot;,
+    &quot;value&quot; : &quot;CRC&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;HRK&quot;,
+    &quot;value&quot; : &quot;HRK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CUC&quot;,
+    &quot;value&quot; : &quot;CUC&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CUP&quot;,
+    &quot;value&quot; : &quot;CUP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CYP&quot;,
+    &quot;value&quot; : &quot;CYP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CZK&quot;,
+    &quot;value&quot; : &quot;CZK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DKK&quot;,
+    &quot;value&quot; : &quot;DKK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DJF&quot;,
+    &quot;value&quot; : &quot;DJF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DOP&quot;,
+    &quot;value&quot; : &quot;DOP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;XCD&quot;,
+    &quot;value&quot; : &quot;XCD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;EGP&quot;,
+    &quot;value&quot; : &quot;EGP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SVC&quot;,
+    &quot;value&quot; : &quot;SVC&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;EEK&quot;,
+    &quot;value&quot; : &quot;EEK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ETB&quot;,
+    &quot;value&quot; : &quot;ETB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;EUR&quot;,
+    &quot;value&quot; : &quot;EUR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;FKP&quot;,
+    &quot;value&quot; : &quot;FKP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;FIM&quot;,
+    &quot;value&quot; : &quot;FIM&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;FJD&quot;,
+    &quot;value&quot; : &quot;FJD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GMD&quot;,
+    &quot;value&quot; : &quot;GMD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GEL&quot;,
+    &quot;value&quot; : &quot;GEL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DMK&quot;,
+    &quot;value&quot; : &quot;DMK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GHS&quot;,
+    &quot;value&quot; : &quot;GHS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GIP&quot;,
+    &quot;value&quot; : &quot;GIP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GRD&quot;,
+    &quot;value&quot; : &quot;GRD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GTQ&quot;,
+    &quot;value&quot; : &quot;GTQ&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GNF&quot;,
+    &quot;value&quot; : &quot;GNF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;GYD&quot;,
+    &quot;value&quot; : &quot;GYD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;HTG&quot;,
+    &quot;value&quot; : &quot;HTG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;HNL&quot;,
+    &quot;value&quot; : &quot;HNL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;HKD&quot;,
+    &quot;value&quot; : &quot;HKD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;HUF&quot;,
+    &quot;value&quot; : &quot;HUF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISK&quot;,
+    &quot;value&quot; : &quot;ISK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;INR&quot;,
+    &quot;value&quot; : &quot;INR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDR&quot;,
+    &quot;value&quot; : &quot;IDR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IRR&quot;,
+    &quot;value&quot; : &quot;IRR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IQD&quot;,
+    &quot;value&quot; : &quot;IQD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IED&quot;,
+    &quot;value&quot; : &quot;IED&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ILS&quot;,
+    &quot;value&quot; : &quot;ILS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ITL&quot;,
+    &quot;value&quot; : &quot;ITL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;JMD&quot;,
+    &quot;value&quot; : &quot;JMD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;JPY&quot;,
+    &quot;value&quot; : &quot;JPY&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;JOD&quot;,
+    &quot;value&quot; : &quot;JOD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KZT&quot;,
+    &quot;value&quot; : &quot;KZT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KES&quot;,
+    &quot;value&quot; : &quot;KES&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KWD&quot;,
+    &quot;value&quot; : &quot;KWD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KGS&quot;,
+    &quot;value&quot; : &quot;KGS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LAK&quot;,
+    &quot;value&quot; : &quot;LAK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LVL&quot;,
+    &quot;value&quot; : &quot;LVL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LBP&quot;,
+    &quot;value&quot; : &quot;LBP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LSL&quot;,
+    &quot;value&quot; : &quot;LSL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LRD&quot;,
+    &quot;value&quot; : &quot;LRD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LYD&quot;,
+    &quot;value&quot; : &quot;LYD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LTL&quot;,
+    &quot;value&quot; : &quot;LTL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LUF&quot;,
+    &quot;value&quot; : &quot;LUF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MOP&quot;,
+    &quot;value&quot; : &quot;MOP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MKD&quot;,
+    &quot;value&quot; : &quot;MKD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MGA&quot;,
+    &quot;value&quot; : &quot;MGA&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MWK&quot;,
+    &quot;value&quot; : &quot;MWK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MYR&quot;,
+    &quot;value&quot; : &quot;MYR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MVR&quot;,
+    &quot;value&quot; : &quot;MVR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MTL&quot;,
+    &quot;value&quot; : &quot;MTL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MRO&quot;,
+    &quot;value&quot; : &quot;MRO&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MUR&quot;,
+    &quot;value&quot; : &quot;MUR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MXN&quot;,
+    &quot;value&quot; : &quot;MXN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MDL&quot;,
+    &quot;value&quot; : &quot;MDL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MNT&quot;,
+    &quot;value&quot; : &quot;MNT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MAD&quot;,
+    &quot;value&quot; : &quot;MAD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MZN&quot;,
+    &quot;value&quot; : &quot;MZN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;MMK&quot;,
+    &quot;value&quot; : &quot;MMK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ANG&quot;,
+    &quot;value&quot; : &quot;ANG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NAD&quot;,
+    &quot;value&quot; : &quot;NAD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NPR&quot;,
+    &quot;value&quot; : &quot;NPR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NLG&quot;,
+    &quot;value&quot; : &quot;NLG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NZD&quot;,
+    &quot;value&quot; : &quot;NZD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NIO&quot;,
+    &quot;value&quot; : &quot;NIO&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NGN&quot;,
+    &quot;value&quot; : &quot;NGN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KPW&quot;,
+    &quot;value&quot; : &quot;KPW&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NOK&quot;,
+    &quot;value&quot; : &quot;NOK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;OMR&quot;,
+    &quot;value&quot; : &quot;OMR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PKR&quot;,
+    &quot;value&quot; : &quot;PKR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PAB&quot;,
+    &quot;value&quot; : &quot;PAB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PGK&quot;,
+    &quot;value&quot; : &quot;PGK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PYG&quot;,
+    &quot;value&quot; : &quot;PYG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PEN&quot;,
+    &quot;value&quot; : &quot;PEN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PHP&quot;,
+    &quot;value&quot; : &quot;PHP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PLN&quot;,
+    &quot;value&quot; : &quot;PLN&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;PTE&quot;,
+    &quot;value&quot; : &quot;PTE&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;QAR&quot;,
+    &quot;value&quot; : &quot;QAR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RON&quot;,
+    &quot;value&quot; : &quot;RON&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RUB&quot;,
+    &quot;value&quot; : &quot;RUB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RWF&quot;,
+    &quot;value&quot; : &quot;RWF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;WST&quot;,
+    &quot;value&quot; : &quot;WST&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;STD&quot;,
+    &quot;value&quot; : &quot;STD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SAR&quot;,
+    &quot;value&quot; : &quot;SAR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RSD&quot;,
+    &quot;value&quot; : &quot;RSD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SCR&quot;,
+    &quot;value&quot; : &quot;SCR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SLL&quot;,
+    &quot;value&quot; : &quot;SLL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SGD&quot;,
+    &quot;value&quot; : &quot;SGD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SKK&quot;,
+    &quot;value&quot; : &quot;SKK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SIT&quot;,
+    &quot;value&quot; : &quot;SIT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SBD&quot;,
+    &quot;value&quot; : &quot;SBD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SOS&quot;,
+    &quot;value&quot; : &quot;SOS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ZAR&quot;,
+    &quot;value&quot; : &quot;ZAR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;KRW&quot;,
+    &quot;value&quot; : &quot;KRW&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ESP&quot;,
+    &quot;value&quot; : &quot;ESP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;LKR&quot;,
+    &quot;value&quot; : &quot;LKR&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SHP&quot;,
+    &quot;value&quot; : &quot;SHP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SDG&quot;,
+    &quot;value&quot; : &quot;SDG&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SRD&quot;,
+    &quot;value&quot; : &quot;SRD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SZL&quot;,
+    &quot;value&quot; : &quot;SZL&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SEK&quot;,
+    &quot;value&quot; : &quot;SEK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;CHF&quot;,
+    &quot;value&quot; : &quot;CHF&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SYP&quot;,
+    &quot;value&quot; : &quot;SYP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TWD&quot;,
+    &quot;value&quot; : &quot;TWD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TZS&quot;,
+    &quot;value&quot; : &quot;TZS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;THB&quot;,
+    &quot;value&quot; : &quot;THB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TOP&quot;,
+    &quot;value&quot; : &quot;TOP&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TTD&quot;,
+    &quot;value&quot; : &quot;TTD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TND&quot;,
+    &quot;value&quot; : &quot;TND&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TRY&quot;,
+    &quot;value&quot; : &quot;TRY&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;TMM&quot;,
+    &quot;value&quot; : &quot;TMM&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;USD&quot;,
+    &quot;value&quot; : &quot;USD&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;UGX&quot;,
+    &quot;value&quot; : &quot;UGX&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;UAH&quot;,
+    &quot;value&quot; : &quot;UAH&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;UYU&quot;,
+    &quot;value&quot; : &quot;UYU&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;AED&quot;,
+    &quot;value&quot; : &quot;AED&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;VUV&quot;,
+    &quot;value&quot; : &quot;VUV&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;VEB&quot;,
+    &quot;value&quot; : &quot;VEB&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;VND&quot;,
+    &quot;value&quot; : &quot;VND&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;YER&quot;,
+    &quot;value&quot; : &quot;YER&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ZMK&quot;,
+    &quot;value&quot; : &quot;ZMK&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ZWD&quot;,
+    &quot;value&quot; : &quot;ZWD&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Select</type>
+            <uniqueIndex>NZCDCHCDP__C0D4</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D5</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.5) Select the option that describes the reporting boundary for which climate-related impacts on your business are being reported. Note that this option should align with your chosen approach for consolidating your GHG inventory.&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Financial control&quot;,
+    &quot;value&quot; : &quot;Financial control&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Operational control&quot;,
+    &quot;value&quot; : &quot;Operational control&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Equity share&quot;,
+    &quot;value&quot; : &quot;Equity share&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Select</type>
+            <uniqueIndex>NZCDCHCDP__C0D5</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D8D1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Indicate whether you are able to provide a unique identifier for your organization&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes, an ISIN code&quot;,
+    &quot;value&quot; : &quot;Yes, an ISIN code&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, a CUSIP number&quot;,
+    &quot;value&quot; : &quot;Yes, a CUSIP number&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, a Ticker symbol&quot;,
+    &quot;value&quot; : &quot;Yes, a Ticker symbol&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, a SEDOL code&quot;,
+    &quot;value&quot; : &quot;Yes, a SEDOL code&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Yes, another unique identifier, please specify&quot;,
+    &quot;value&quot; : &quot;Yes, another unique identifier, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C0D8D1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C0D8D2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Provide your unique identifier*&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 50,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;OR&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes, an ISIN code&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C0D8D1|n&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C0D8D1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a CUSIP number&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C0D8D1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a Ticker symbol&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C0D8D1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, a SEDOL code&quot;
+      }, {
+        &quot;field&quot; : &quot;NZCDCHCDP__C0D8D1|n&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;data&quot; : &quot;Yes, another unique identifier, please specify&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C0D8D2</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C0D8</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C0.8) Does your organization have an ISIN code or another unique identifier (e.g., Ticker, CUSIP, etc.)?&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 2
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C0D8</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>CustomLWC1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;CustomLWC1&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;cfC0FC&quot;,
+  &quot;bStandalone&quot; : true,
+  &quot;customAttributes&quot; : [ ]
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Custom Lightning Web Component</type>
+            </childElements>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>C0Guidance</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Guidance&quot;,
+  &quot;collapse&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Block</type>
+        </childElements>
+        <designerCustomizationType>Discovery Framework</designerCustomizationType>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>C0 Introduction</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;label&quot; : &quot;C0 Introduction&quot;,
+  &quot;validationRequired&quot; : true,
+  &quot;previousLabel&quot; : &quot;Previous&quot;,
+  &quot;previousWidth&quot; : 3.0,
+  &quot;nextLabel&quot; : &quot;Next&quot;,
+  &quot;nextWidth&quot; : 3.0,
+  &quot;cancelLabel&quot; : &quot;Cancel&quot;,
+  &quot;cancelMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;saveLabel&quot; : &quot;Save for later&quot;,
+  &quot;saveMessage&quot; : &quot;Are you sure you want to save it for later?&quot;,
+  &quot;completeLabel&quot; : &quot;Complete&quot;,
+  &quot;completeMessage&quot; : &quot;Are you sure you want to complete the script?&quot;,
+  &quot;instruction&quot; : &quot;&quot;,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteTimeout&quot; : 30000.0,
+  &quot;remoteOptions&quot; : { },
+  &quot;knowledgeOptions&quot; : {
+    &quot;language&quot; : &quot;English&quot;,
+    &quot;publishStatus&quot; : &quot;Online&quot;,
+    &quot;keyword&quot; : &quot;&quot;,
+    &quot;dataCategoryCriteria&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000.0,
+    &quot;typeFilter&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;instructionKey&quot; : &quot;&quot;,
+  &quot;chartLabel&quot; : null,
+  &quot;allowSaveForLater&quot; : true,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Step</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>SetValuesStartDate</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;SetValues1&quot;,
+  &quot;elementValueMap&quot; : {
+    &quot;NZCDCHCDP__C0D2D1&quot; : &quot;=%NZCDCHCDP__CDPStartDate%&quot;,
+    &quot;NZCDCHCDP__C0D2D2&quot; : &quot;=%NZCDCHCDP__CDPEndDate%&quot;
+  },
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;show&quot; : null,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false
+}</propertySetConfig>
+        <sequenceNumber>0.0</sequenceNumber>
+        <type>Set Values</type>
+    </omniProcessElements>
+    <omniProcessType>OmniScript</omniProcessType>
+    <propertySetConfig>{
+  &quot;persistentComponent&quot; : [ {
+    &quot;render&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;sendJSONPath&quot; : &quot;&quot;,
+    &quot;sendJSONNode&quot; : &quot;&quot;,
+    &quot;responseJSONPath&quot; : &quot;&quot;,
+    &quot;responseJSONNode&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcCart&quot;,
+    &quot;itemsKey&quot; : &quot;cartItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;vlcProductConfig.html&quot;,
+      &quot;modalController&quot; : &quot;ModalProductCtrl&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  }, {
+    &quot;render&quot; : false,
+    &quot;dispOutsideOmni&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcKnowledge&quot;,
+    &quot;itemsKey&quot; : &quot;knowledgeItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;&quot;,
+      &quot;modalController&quot; : &quot;&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  } ],
+  &quot;allowSaveForLater&quot; : true,
+  &quot;saveNameTemplate&quot; : null,
+  &quot;saveExpireInDays&quot; : null,
+  &quot;saveForLaterRedirectPageName&quot; : &quot;sflRedirect&quot;,
+  &quot;saveForLaterRedirectTemplateUrl&quot; : &quot;vlcSaveForLaterAcknowledge.html&quot;,
+  &quot;saveContentEncoded&quot; : false,
+  &quot;saveObjectId&quot; : &quot;%ContextId%&quot;,
+  &quot;saveURLPatterns&quot; : { },
+  &quot;autoSaveOnStepNext&quot; : false,
+  &quot;elementTypeToHTMLTemplateMapping&quot; : { },
+  &quot;seedDataJSON&quot; : { },
+  &quot;trackingCustomData&quot; : { },
+  &quot;enableKnowledge&quot; : false,
+  &quot;bLK&quot; : false,
+  &quot;lkObjName&quot; : null,
+  &quot;knowledgeArticleTypeQueryFieldsMap&quot; : { },
+  &quot;timeTracking&quot; : false,
+  &quot;hideStepChart&quot; : false,
+  &quot;mergeSavedData&quot; : false,
+  &quot;visualforcePagesAvailableInPreview&quot; : { },
+  &quot;cancelType&quot; : &quot;SObject&quot;,
+  &quot;allowCancel&quot; : true,
+  &quot;cancelSource&quot; : &quot;%ContextId%&quot;,
+  &quot;cancelRedirectPageName&quot; : &quot;OmniScriptCancelled&quot;,
+  &quot;cancelRedirectTemplateUrl&quot; : &quot;vlcCancelled.html&quot;,
+  &quot;consoleTabLabel&quot; : &quot;New&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;autoFocus&quot; : false,
+  &quot;currencyCode&quot; : &quot;&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;rtpSeed&quot; : false,
+  &quot;consoleTabTitle&quot; : null,
+  &quot;consoleTabIcon&quot; : &quot;custom:custom18&quot;,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ]
+  },
+  &quot;stylesheet&quot; : {
+    &quot;newport&quot; : &quot;&quot;,
+    &quot;lightning&quot; : &quot;&quot;,
+    &quot;newportRtl&quot; : &quot;&quot;,
+    &quot;lightningRtl&quot; : &quot;&quot;
+  },
+  &quot;stepChartPlacement&quot; : &quot;left&quot;,
+  &quot;disableUnloadWarn&quot; : true,
+  &quot;scrollBehavior&quot; : &quot;auto&quot;
+}</propertySetConfig>
+    <subType>C0</subType>
+    <type>C0</type>
+    <uniqueName>C0_C0_English_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <webComponentKey>db0933ca-6afe-007f-ba35-a2532f05d4e3</webComponentKey>
+</OmniScript>

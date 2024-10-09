@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;C8D2cResp&quot; : [ {
+    &quot;C8D2cD1Val&quot; : &quot;Sustainable biomass&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other biomass&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other renewable fuels (e.g. renewable hydrogen)&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Coal&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Oil&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Gas&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other non-renewable fuels (e.g. non-renewable hydrogen)&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Total fuel&quot;
+  } ]
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>C8D2cDR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>C8D2cDRCustom9721</globalKey>
+        <inputFieldName>C8D2cResp:C8D2cD1Val</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>C8D2cDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHCDP__C8D2c:NZCDCHCDP__C8D2cD1</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;C8D2cResp&quot; : [ {
+    &quot;C8D2cD1Val&quot; : &quot;Sustainable biomass&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other biomass&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other renewable fuels (e.g. renewable hydrogen)&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Coal&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Oil&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Gas&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Other non-renewable fuels (e.g. non-renewable hydrogen)&quot;
+  }, {
+    &quot;C8D2cD1Val&quot; : &quot;Total fuel&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>C8D2cDR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

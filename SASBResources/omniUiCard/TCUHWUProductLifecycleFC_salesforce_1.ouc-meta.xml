@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>TCUHWUProductLifecycleFC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Product%20Lifecycle%20Management%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ETC-HW-410a.1a%20,%20TC-HW-410a.1b%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20describe%20its%20approach%20to%20managing%20the%20use%20of%20substances%20that%20appear%20as%20declarable%20substance%20groups%20or%20declarable%20substances%20in%20IEC%2062474,%20including%20a%20discussion%20of%20specific%20operational%20processes%20during%20which%20use%20of%20these%20substances%20is%20considered%20and%20the%20actions%20the%20entity%20has%20taken%20to%20manage%20the%20use%20of%20these%20substances.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Relevant%20management%20approaches%20and%20actions%20to%20describe%20may%20include,%20but%20are%20not%20limited%20to:Product%20design%20criteria%20for%20the%20exclusion%20of%20substances%20(e.g.,%20banned%20substances%20lists)Use%20of%20material%20substitution%20assessments,%20materials%20and%20parts%20procurement%20guidelines,%20product%20safety%20testing,%20product%20declarations%20(e.g.,%20material%20safety%20data%20sheets),%20and%20product%20labeling%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20If%20the%20entity%20assesses%20and%20manages%20the%20impact%20of%20known%20or%20potentially%20toxic%20substances%20with%20reference%20to%20other%20regulations,%20industry%20norms,%20or%20accepted%20chemical%20lists,%20it%20may%20identify%20those%20practices,%20and%20it%20shall%20describe%20the%20degree%20of%20overlap%20with%20IEC%2062474.&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ETC-HW-410a.2a%20,%20TC-HW-410a.2b%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20describe%20its%20approach%20to%20incorporating%20environmentally%20focused%20principles%20into%20product%20design.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Examples%20of%20environmentally%20focused%20principles%20or%20criteria%20include%20those%20outlined%20in%20International%20Electrotechnical%20Commission&apos;s%20(IEC)%20Environmentally%20Conscious%20Design%20(IEC-62430%20or%20IEC-62075)%20or%20U.S.%20Environmental%20Protection%20Agency&amp;rsquo;s%20Design%20for%20Environment%20(DfE).%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20discussion%20shall%20include,%20but%20is%20not%20limited%20to:%20Elimination%20of%20toxic%20substancesUse%20of%20recycled%20materialsReduction%20of%20packagingDesign%20for%20consolidated%20shippingDesign%20of%20low%20energy%20consumption%20productsDesign%20for%20product%20take-backLabeling%20for%20recyclingElimination%20or%20replacement%20of%20materials%20that%20are%20subject%20to%20resource%20scarcity%20(e.g.,%20cobalt%20and%20rare%20earth%20elements)&amp;nbsp;%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;TCUHWUProductLifecycleFC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;TCUHWUProductLifecycleFC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

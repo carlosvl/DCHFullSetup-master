@@ -1,0 +1,2527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
+    <designerCustomizationType>Discovery Framework</designerCustomizationType>
+    <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+    <elementTypeComponentMapping>{
+  &quot;ElementTypeToHTMLTemplateList&quot; : [ ]
+}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>true</isWebCompEnabled>
+    <language>English</language>
+    <name>C10</name>
+    <omniProcessElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1D1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Scope&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : true,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 255,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D1D1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1D2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Verification/assurance status&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : &quot;No emissions data provided&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;No emissions data provided&quot;,
+    &quot;value&quot; : &quot;No emissions data provided&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No third-party verification or assurance&quot;,
+    &quot;value&quot; : &quot;No third-party verification or assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Third-party verification or assurance process in place&quot;,
+    &quot;value&quot; : &quot;Third-party verification or assurance process in place&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1D2</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D1</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;(C10.1) Indicate the verification/assurance status that applies to your reported emissions.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;Table&quot;,
+  &quot;maxDisplay&quot; : 2,
+  &quot;allowClear&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>0.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C10D1</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Verification or assurance cycle in place&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Annual process&quot;,
+    &quot;value&quot; : &quot;Annual process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Biennial process&quot;,
+    &quot;value&quot; : &quot;Biennial process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Triennial process&quot;,
+    &quot;value&quot; : &quot;Triennial process&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Status in the current reporting year&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;value&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Complete&quot;,
+    &quot;value&quot; : &quot;Complete&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Type of verification or assurance&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Not applicable&quot;,
+    &quot;value&quot; : &quot;Not applicable&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Limited assurance&quot;,
+    &quot;value&quot; : &quot;Limited assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Moderate assurance&quot;,
+    &quot;value&quot; : &quot;Moderate assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Reasonable assurance&quot;,
+    &quot;value&quot; : &quot;Reasonable assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;High assurance&quot;,
+    &quot;value&quot; : &quot;High assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;value&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Attach the statement&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;uploadContDoc&quot; : true,
+  &quot;contentParentId&quot; : [ ],
+  &quot;extraPayload&quot; : { },
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>File</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD4</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD5</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Page/section reference&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>4.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD5</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD6</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Relevant standard&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;AA1000AS&quot;,
+    &quot;value&quot; : &quot;AA1000AS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;value&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;value&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;value&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;value&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ASAE3000&quot;,
+    &quot;value&quot; : &quot;ASAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;value&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;value&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;value&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;value&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;value&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;value&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;value&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;value&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;value&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;value&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;value&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;value&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;value&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;value&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;value&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE3000&quot;,
+    &quot;value&quot; : &quot;ISAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE 3410&quot;,
+    &quot;value&quot; : &quot;ISAE 3410&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-1&quot;,
+    &quot;value&quot; : &quot;ISO14064-1&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-3&quot;,
+    &quot;value&quot; : &quot;ISO14064-3&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;value&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;value&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;value&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;value&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;value&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;value&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;value&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SSAE 3000&quot;,
+    &quot;value&quot; : &quot;SSAE 3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;value&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;value&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;value&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;value&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;value&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;value&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>5.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD6</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1aD7</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Proportion of reported emissions verified (%)&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;mask&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>6.0</sequenceNumber>
+                <type>Number</type>
+                <uniqueIndex>NZCDCHCDP__C10D1aD7</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D1a</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;(C10.1a) Provide further details of the verification/assurance undertaken for your Scope 1 emissions and attach the relevant statements.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 7
+}</propertySetConfig>
+            <sequenceNumber>1.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C10D1a</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Scope 2 approach&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Scope 2 location-based&quot;,
+    &quot;value&quot; : &quot;Scope 2 location-based&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Scope 2 market-based&quot;,
+    &quot;value&quot; : &quot;Scope 2 market-based&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Verification or assurance cycle in place&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Annual process&quot;,
+    &quot;value&quot; : &quot;Annual process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Biennial process&quot;,
+    &quot;value&quot; : &quot;Biennial process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Triennial process&quot;,
+    &quot;value&quot; : &quot;Triennial process&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Status in the current reporting year&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;value&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Complete&quot;,
+    &quot;value&quot; : &quot;Complete&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Type of verification or assurance&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Not applicable&quot;,
+    &quot;value&quot; : &quot;Not applicable&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Limited assurance&quot;,
+    &quot;value&quot; : &quot;Limited assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Moderate assurance&quot;,
+    &quot;value&quot; : &quot;Moderate assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Reasonable assurance&quot;,
+    &quot;value&quot; : &quot;Reasonable assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;High assurance&quot;,
+    &quot;value&quot; : &quot;High assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;value&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD4</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD5</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Attach the statement&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;uploadContDoc&quot; : true,
+  &quot;contentParentId&quot; : [ ],
+  &quot;extraPayload&quot; : { },
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>4.0</sequenceNumber>
+                <type>File</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD5</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD6</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Page/ section reference&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>5.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD6</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD7</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Relevant standard&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;AA1000AS&quot;,
+    &quot;value&quot; : &quot;AA1000AS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;value&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;value&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;value&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;value&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ASAE3000&quot;,
+    &quot;value&quot; : &quot;ASAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;value&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;value&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;value&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;value&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;value&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;value&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;value&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;value&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;value&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;value&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;value&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;value&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;value&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;value&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;value&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE3000&quot;,
+    &quot;value&quot; : &quot;ISAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE 3410&quot;,
+    &quot;value&quot; : &quot;ISAE 3410&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-1&quot;,
+    &quot;value&quot; : &quot;ISO14064-1&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-3&quot;,
+    &quot;value&quot; : &quot;ISO14064-3&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;value&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;value&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;value&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;value&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;value&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;value&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;value&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SSAE 3000&quot;,
+    &quot;value&quot; : &quot;SSAE 3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;value&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;value&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;value&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;value&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;value&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;value&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>6.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD7</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1bD8</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Proportion of reported emissions verified (%)&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;mask&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>7.0</sequenceNumber>
+                <type>Number</type>
+                <uniqueIndex>NZCDCHCDP__C10D1bD8</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D1b</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C10.1b) Provide further details of the verification/assurance undertaken for your Scope 2 emissions and attach the relevant statements.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 8
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C10D1b</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Scope 3 category&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Scope 3: Purchased goods and services&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Purchased goods and services&quot;,
+    &quot;value&quot; : &quot;Scope 3: Purchased goods and services&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Capital goods&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Capital goods&quot;,
+    &quot;value&quot; : &quot;Scope 3: Capital goods&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Fuel and energy-related activities (not included in Scopes 1 or 2)&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Fuel and energy-related activities (not included in Scopes 1 or 2)&quot;,
+    &quot;value&quot; : &quot;Scope 3: Fuel and energy-related activities (not included in Scopes 1 or 2)&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Upstream transportation and distribution&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Upstream transportation and distribution&quot;,
+    &quot;value&quot; : &quot;Scope 3: Upstream transportation and distribution&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Waste generated in operations&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Waste generated in operations&quot;,
+    &quot;value&quot; : &quot;Scope 3: Waste generated in operations&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Business travel&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Business travel&quot;,
+    &quot;value&quot; : &quot;Scope 3: Business travel&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Employee commuting&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Employee commuting&quot;,
+    &quot;value&quot; : &quot;Scope 3: Employee commuting&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Upstream leased assets&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Upstream leased assets&quot;,
+    &quot;value&quot; : &quot;Scope 3: Upstream leased assets&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Investments&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Investments&quot;,
+    &quot;value&quot; : &quot;Scope 3: Investments&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Downstream transportation and distribution&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Downstream transportation and distribution&quot;,
+    &quot;value&quot; : &quot;Scope 3: Downstream transportation and distribution&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Processing of sold products&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Processing of sold products&quot;,
+    &quot;value&quot; : &quot;Scope 3: Processing of sold products&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Use of sold products&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Use of sold products&quot;,
+    &quot;value&quot; : &quot;Scope 3: Use of sold products&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: End-of-life treatment of sold products&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: End-of-life treatment of sold products&quot;,
+    &quot;value&quot; : &quot;Scope 3: End-of-life treatment of sold products&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Downstream leased assets&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Downstream leased assets&quot;,
+    &quot;value&quot; : &quot;Scope 3: Downstream leased assets&quot;
+  }, {
+    &quot;name&quot; : &quot;Scope 3: Franchises&quot;,
+    &quot;developerName&quot; : &quot;Scope 3: Franchises&quot;,
+    &quot;value&quot; : &quot;Scope 3: Franchises&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Multi-select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Verification or assurance cycle in place&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Annual process&quot;,
+    &quot;value&quot; : &quot;Annual process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Biennial process&quot;,
+    &quot;value&quot; : &quot;Biennial process&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Triennial process&quot;,
+    &quot;value&quot; : &quot;Triennial process&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Status in the current reporting year&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;value&quot; : &quot;No verification or assurance of current reporting year&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for current reporting year – first year it has taken place&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;value&quot; : &quot;Underway but not complete for reporting year – previous statement of process attached&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Complete&quot;,
+    &quot;value&quot; : &quot;Complete&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Type of verification or assurance&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Not applicable&quot;,
+    &quot;value&quot; : &quot;Not applicable&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Limited assurance&quot;,
+    &quot;value&quot; : &quot;Limited assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Moderate assurance&quot;,
+    &quot;value&quot; : &quot;Moderate assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Reasonable assurance&quot;,
+    &quot;value&quot; : &quot;Reasonable assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;High assurance&quot;,
+    &quot;value&quot; : &quot;High assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;value&quot; : &quot;Third party verification/assurance underway&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>4.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD4</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD5</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Attach the statement&quot;,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;uploadContDoc&quot; : true,
+  &quot;contentParentId&quot; : [ ],
+  &quot;extraPayload&quot; : { },
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>File</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD5</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD6</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Page/ section reference&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>5.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD6</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD7</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Relevant standard&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;AA1000AS&quot;,
+    &quot;value&quot; : &quot;AA1000AS&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;value&quot; : &quot;ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;value&quot; : &quot;Advanced technologies promotion Subsidy Scheme with Emission reduction Target (ASSET)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;value&quot; : &quot;Airport Carbon Accreditation (ACA) des Airports Council International Europe&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;value&quot; : &quot;Alberta Technology Innovation and Emissions Reduction (TIER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ASAE3000&quot;,
+    &quot;value&quot; : &quot;ASAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;value&quot; : &quot;Attestation standards established by AICPA (AT105)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;value&quot; : &quot;Australian National GHG emission regulation (NGER)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;value&quot; : &quot;California Mandatory GHG Reporting Regulations (CARB)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;value&quot; : &quot;Canadian Institute of Chartered Accountants (CICA) Handbook: Assurance Section 5025&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;value&quot; : &quot;Carbon Trust Standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;value&quot; : &quot;Chicago Climate Exchange (CCX) verification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;value&quot; : &quot;The Climate Registry&apos;s General Verification Protocol (also known as California Climate Action Registry (CCAR))&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;value&quot; : &quot;Compagnie Nationale des Commissaires aux Comptes (CNCC)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;value&quot; : &quot;Corporate GHG verification guidelines from ERT&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;value&quot; : &quot;DNV VeriSustain Protocol/ Verification Protocol for Sustainability Reporting&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;value&quot; : &quot;Earthcheck Certification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;value&quot; : &quot;ERM GHG Performance Data Assurance Methodology&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;value&quot; : &quot;European Union Emissions Trading System (EU ETS)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;value&quot; : &quot;IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;value&quot; : &quot;IDW AsS 821: IDW Assurance Standard: Generally Accepted Assurance Principles for the Audit or Review of Reports on Sustainability Issues&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE3000&quot;,
+    &quot;value&quot; : &quot;ISAE3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISAE 3410&quot;,
+    &quot;value&quot; : &quot;ISAE 3410&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-1&quot;,
+    &quot;value&quot; : &quot;ISO14064-1&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;ISO14064-3&quot;,
+    &quot;value&quot; : &quot;ISO14064-3&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;value&quot; : &quot;Japan voluntary emissions trading scheme (JVETS) guideline for verification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;value&quot; : &quot;Korean GHG and energy target management system&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;value&quot; : &quot;NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;value&quot; : &quot;RevR6 procedure for assurance of sustainability report&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;value&quot; : &quot;Saitama Prefecture Target-Setting Emissions Trading Program&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;value&quot; : &quot;SGS Sustainability Report Assurance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;value&quot; : &quot;Spanish Institute of Registered Auditors (ICJCE)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SSAE 3000&quot;,
+    &quot;value&quot; : &quot;SSAE 3000&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;value&quot; : &quot;Standard 3810N Assurance engagements relating to sustainability reports of the Royal Netherlands Institute of Registered Accountants&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;value&quot; : &quot;State of Israel Ministry of Environmental Protection, Verification of GHG and emissions reduction in Israel Guidance Document&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;value&quot; : &quot;Swiss Climate CO2 Label for Businesses&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;value&quot; : &quot;Thai Greenhouse Gas Management Organisation (TGO) Greenhouse Gas (GHG) Verification Protocol&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;value&quot; : &quot;Toitū Envirocare’s carbonreduce certification standard&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;value&quot; : &quot;Tokyo Emissions Trading Scheme&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>6.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD7</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D1cD8</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Proportion of reported emissions verified (%)&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;mask&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>7.0</sequenceNumber>
+                <type>Number</type>
+                <uniqueIndex>NZCDCHCDP__C10D1cD8</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D1c</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C10.1c) Provide further details of the verification/assurance undertaken for your Scope 3 emissions and attach the relevant statements.&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 8
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C10D1c</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D2</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C10.2) Do you verify any climate-related information reported in your CDP disclosure other than the emissions figures reported in C6.1, C6.3, and C6.5?&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;In progress&quot;,
+    &quot;value&quot; : &quot;In progress&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No, but we are actively considering verifying within the next two years&quot;,
+    &quot;value&quot; : &quot;No, but we are actively considering verifying within the next two years&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No, we are waiting for more mature verification standards and/or processes&quot;,
+    &quot;value&quot; : &quot;No, we are waiting for more mature verification standards and/or processes&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;No, we do not verify any other climate-related information reported in our CDP disclosure&quot;,
+    &quot;value&quot; : &quot;No, we do not verify any other climate-related information reported in our CDP disclosure&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Select</type>
+            <uniqueIndex>NZCDCHCDP__C10D2</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D2aD1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Disclosure module verification relates to&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12.0,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;C0. Introduction&quot;,
+    &quot;value&quot; : &quot;C0. Introduction&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C1. Governance&quot;,
+    &quot;value&quot; : &quot;C1. Governance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C2. Risks and opportunities&quot;,
+    &quot;value&quot; : &quot;C2. Risks and opportunities&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C3. Business Strategy&quot;,
+    &quot;value&quot; : &quot;C3. Business Strategy&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C4. Targets and performance&quot;,
+    &quot;value&quot; : &quot;C4. Targets and performance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C5. Emissions performance&quot;,
+    &quot;value&quot; : &quot;C5. Emissions performance&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C6. Emissions data&quot;,
+    &quot;value&quot; : &quot;C6. Emissions data&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C7. Emissions breakdown&quot;,
+    &quot;value&quot; : &quot;C7. Emissions breakdown&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C8. Energy&quot;,
+    &quot;value&quot; : &quot;C8. Energy&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C9. Additional metrics&quot;,
+    &quot;value&quot; : &quot;C9. Additional metrics&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C11. Carbon pricing&quot;,
+    &quot;value&quot; : &quot;C11. Carbon pricing&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C12. Engagement&quot;,
+    &quot;value&quot; : &quot;C12. Engagement&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C13. Other land management impacts&quot;,
+    &quot;value&quot; : &quot;C13. Other land management impacts&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C14. Portfolio impact&quot;,
+    &quot;value&quot; : &quot;C14. Portfolio impact&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;C16. Signoff&quot;,
+    &quot;value&quot; : &quot;C16. Signoff&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;SC. Supply chain module&quot;,
+    &quot;value&quot; : &quot;SC. Supply chain module&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D2aD1</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D2aD2</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Data verified&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Year on year change in emissions (Scope 1)&quot;,
+    &quot;value&quot; : &quot;Year on year change in emissions (Scope 1)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Year on year change in emissions (Scope 2)&quot;,
+    &quot;value&quot; : &quot;Year on year change in emissions (Scope 2)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Year on year change in emissions (Scope 1 and 2)&quot;,
+    &quot;value&quot; : &quot;Year on year change in emissions (Scope 1 and 2)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Year on year change in emissions (Scope 3)&quot;,
+    &quot;value&quot; : &quot;Year on year change in emissions (Scope 3)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Year on year emissions intensity figure&quot;,
+    &quot;value&quot; : &quot;Year on year emissions intensity figure&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Financial or other base year data points used to set a science-based target&quot;,
+    &quot;value&quot; : &quot;Financial or other base year data points used to set a science-based target&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Progress against emissions reduction target&quot;,
+    &quot;value&quot; : &quot;Progress against emissions reduction target&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Change in Scope 1 emissions against a base year (not target related)&quot;,
+    &quot;value&quot; : &quot;Change in Scope 1 emissions against a base year (not target related)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Change in Scope 2 emissions against a base year (not target related)&quot;,
+    &quot;value&quot; : &quot;Change in Scope 2 emissions against a base year (not target related)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Change in Scope 3 emissions against a base year (not target related)&quot;,
+    &quot;value&quot; : &quot;Change in Scope 3 emissions against a base year (not target related)&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Product footprint verification&quot;,
+    &quot;value&quot; : &quot;Product footprint verification&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Emissions reduction activities&quot;,
+    &quot;value&quot; : &quot;Emissions reduction activities&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Renewable energy products&quot;,
+    &quot;value&quot; : &quot;Renewable energy products&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Energy consumption&quot;,
+    &quot;value&quot; : &quot;Energy consumption&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Don’t know&quot;,
+    &quot;value&quot; : &quot;Don’t know&quot;,
+    &quot;autoAdv&quot; : null
+  }, {
+    &quot;name&quot; : &quot;Other, please specify&quot;,
+    &quot;value&quot; : &quot;Other, please specify&quot;,
+    &quot;autoAdv&quot; : null
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>1.0</sequenceNumber>
+                <type>Select</type>
+                <uniqueIndex>NZCDCHCDP__C10D2aD2</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D2aD3</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Verification standard&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 1500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>2.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D2aD3</uniqueIndex>
+            </childElements>
+            <childElements>
+                <designerCustomizationType>Discovery Framework</designerCustomizationType>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>NZCDCHCDP__C10D2aD4</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Please explain&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;inputWidth&quot; : 12,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;mask&quot; : &quot;&quot;,
+  &quot;pattern&quot; : &quot;&quot;,
+  &quot;ptrnErrText&quot; : &quot;&quot;,
+  &quot;minLength&quot; : 0,
+  &quot;maxLength&quot; : 1500,
+  &quot;placeholder&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;debounceValue&quot; : 0,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;disOnTplt&quot; : true
+}</propertySetConfig>
+                <sequenceNumber>3.0</sequenceNumber>
+                <type>Text</type>
+                <uniqueIndex>NZCDCHCDP__C10D2aD4</uniqueIndex>
+            </childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>NZCDCHCDP__C10D2a</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;(C10.2a) Which data points within your CDP disclosure have been verified, and which verification standards were used?&quot;,
+  &quot;allowEdit&quot; : true,
+  &quot;allowNew&quot; : true,
+  &quot;allowDelete&quot; : true,
+  &quot;newLabel&quot; : &quot;New&quot;,
+  &quot;editLabel&quot; : &quot;Edit&quot;,
+  &quot;deleteLabel&quot; : &quot;Delete&quot;,
+  &quot;selectMode&quot; : &quot;Multi&quot;,
+  &quot;selectCheckBox&quot; : &quot;&quot;,
+  &quot;svgSprite&quot; : &quot;utility&quot;,
+  &quot;svgIcon&quot; : &quot;user&quot;,
+  &quot;elementName&quot; : &quot;&quot;,
+  &quot;valueSvgMap&quot; : [ ],
+  &quot;selectSobject&quot; : &quot;&quot;,
+  &quot;sobjectMapping&quot; : [ ],
+  &quot;sumElement&quot; : &quot;&quot;,
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;AND&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;NZCDCHCDP__C10D2&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;mode&quot; : &quot;&quot;,
+  &quot;maxDisplay&quot; : 4
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Edit Block</type>
+            <uniqueIndex>NZCDCHCDP__C10D2a</uniqueIndex>
+        </childElements>
+        <childElements>
+            <childElements>
+                <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+                <isActive>true</isActive>
+                <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+                <level>2.0</level>
+                <name>CustomLWC1</name>
+                <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+                <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;CustomLWC1&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;cfC10FC&quot;,
+  &quot;bStandalone&quot; : true,
+  &quot;customAttributes&quot; : [ ]
+}</propertySetConfig>
+                <sequenceNumber>0.0</sequenceNumber>
+                <type>Custom Lightning Web Component</type>
+            </childElements>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>C10Guidance</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Guidance&quot;,
+  &quot;collapse&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Block</type>
+        </childElements>
+        <designerCustomizationType>Discovery Framework</designerCustomizationType>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>C10 Verification</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;label&quot; : &quot;C10 Verification&quot;,
+  &quot;validationRequired&quot; : true,
+  &quot;previousLabel&quot; : &quot;Previous&quot;,
+  &quot;previousWidth&quot; : 3.0,
+  &quot;nextLabel&quot; : &quot;Next&quot;,
+  &quot;nextWidth&quot; : 3.0,
+  &quot;cancelLabel&quot; : &quot;Cancel&quot;,
+  &quot;cancelMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;saveLabel&quot; : &quot;Save for later&quot;,
+  &quot;saveMessage&quot; : &quot;Are you sure you want to save it for later?&quot;,
+  &quot;completeLabel&quot; : &quot;Complete&quot;,
+  &quot;completeMessage&quot; : &quot;Are you sure you want to complete the script?&quot;,
+  &quot;instruction&quot; : &quot;&quot;,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteTimeout&quot; : 30000.0,
+  &quot;remoteOptions&quot; : { },
+  &quot;knowledgeOptions&quot; : {
+    &quot;language&quot; : &quot;English&quot;,
+    &quot;publishStatus&quot; : &quot;Online&quot;,
+    &quot;keyword&quot; : &quot;&quot;,
+    &quot;dataCategoryCriteria&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000.0,
+    &quot;typeFilter&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;instructionKey&quot; : &quot;&quot;,
+  &quot;chartLabel&quot; : null,
+  &quot;allowSaveForLater&quot; : true,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Step</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>DataRaptorTransformActionC10D1</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;DataRaptorTransformActionC10D1&quot;,
+  &quot;ignoreCache&quot; : false,
+  &quot;bundle&quot; : &quot;C10D1DR&quot;,
+  &quot;remoteTimeout&quot; : 30000,
+  &quot;sendJSONPath&quot; : &quot;C10D1Resp&quot;,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;inProgressMessage&quot; : &quot;In Progress&quot;,
+  &quot;postMessage&quot; : &quot;Done&quot;,
+  &quot;failureNextLabel&quot; : &quot;Continue&quot;,
+  &quot;failureAbortLabel&quot; : &quot;Abort&quot;,
+  &quot;failureGoBackLabel&quot; : &quot;Go Back&quot;,
+  &quot;failureAbortMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;validationRequired&quot; : &quot;Submit&quot;,
+  &quot;redirectPageName&quot; : &quot;&quot;,
+  &quot;redirectTemplateUrl&quot; : &quot;vlcAcknowledge.html&quot;,
+  &quot;redirectNextLabel&quot; : &quot;Next&quot;,
+  &quot;redirectNextWidth&quot; : 3,
+  &quot;redirectPreviousLabel&quot; : &quot;Previous&quot;,
+  &quot;redirectPreviousWidth&quot; : 3,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;show&quot; : null,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;enableDefaultAbort&quot; : false,
+  &quot;enableActionMessage&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>0.0</sequenceNumber>
+        <type>DataRaptor Transform Action</type>
+    </omniProcessElements>
+    <omniProcessType>OmniScript</omniProcessType>
+    <propertySetConfig>{
+  &quot;persistentComponent&quot; : [ {
+    &quot;render&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;sendJSONPath&quot; : &quot;&quot;,
+    &quot;sendJSONNode&quot; : &quot;&quot;,
+    &quot;responseJSONPath&quot; : &quot;&quot;,
+    &quot;responseJSONNode&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcCart&quot;,
+    &quot;itemsKey&quot; : &quot;cartItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;vlcProductConfig.html&quot;,
+      &quot;modalController&quot; : &quot;ModalProductCtrl&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  }, {
+    &quot;render&quot; : false,
+    &quot;dispOutsideOmni&quot; : false,
+    &quot;label&quot; : &quot;&quot;,
+    &quot;remoteClass&quot; : &quot;&quot;,
+    &quot;remoteMethod&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000,
+    &quot;remoteOptions&quot; : {
+      &quot;preTransformBundle&quot; : &quot;&quot;,
+      &quot;postTransformBundle&quot; : &quot;&quot;
+    },
+    &quot;preTransformBundle&quot; : &quot;&quot;,
+    &quot;postTransformBundle&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;vlcKnowledge&quot;,
+    &quot;itemsKey&quot; : &quot;knowledgeItems&quot;,
+    &quot;modalConfigurationSetting&quot; : {
+      &quot;modalHTMLTemplateId&quot; : &quot;&quot;,
+      &quot;modalController&quot; : &quot;&quot;,
+      &quot;modalSize&quot; : &quot;lg&quot;
+    }
+  } ],
+  &quot;allowSaveForLater&quot; : true,
+  &quot;saveNameTemplate&quot; : null,
+  &quot;saveExpireInDays&quot; : null,
+  &quot;saveForLaterRedirectPageName&quot; : &quot;sflRedirect&quot;,
+  &quot;saveForLaterRedirectTemplateUrl&quot; : &quot;vlcSaveForLaterAcknowledge.html&quot;,
+  &quot;saveContentEncoded&quot; : false,
+  &quot;saveObjectId&quot; : &quot;%ContextId%&quot;,
+  &quot;saveURLPatterns&quot; : { },
+  &quot;autoSaveOnStepNext&quot; : false,
+  &quot;elementTypeToHTMLTemplateMapping&quot; : { },
+  &quot;seedDataJSON&quot; : { },
+  &quot;trackingCustomData&quot; : { },
+  &quot;enableKnowledge&quot; : false,
+  &quot;bLK&quot; : false,
+  &quot;lkObjName&quot; : null,
+  &quot;knowledgeArticleTypeQueryFieldsMap&quot; : { },
+  &quot;timeTracking&quot; : false,
+  &quot;hideStepChart&quot; : false,
+  &quot;mergeSavedData&quot; : false,
+  &quot;visualforcePagesAvailableInPreview&quot; : { },
+  &quot;cancelType&quot; : &quot;SObject&quot;,
+  &quot;allowCancel&quot; : true,
+  &quot;cancelSource&quot; : &quot;%ContextId%&quot;,
+  &quot;cancelRedirectPageName&quot; : &quot;OmniScriptCancelled&quot;,
+  &quot;cancelRedirectTemplateUrl&quot; : &quot;vlcCancelled.html&quot;,
+  &quot;consoleTabLabel&quot; : &quot;New&quot;,
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;autoFocus&quot; : false,
+  &quot;currencyCode&quot; : &quot;&quot;,
+  &quot;showInputWidth&quot; : false,
+  &quot;rtpSeed&quot; : false,
+  &quot;consoleTabTitle&quot; : null,
+  &quot;consoleTabIcon&quot; : &quot;custom:custom18&quot;,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ]
+  },
+  &quot;stylesheet&quot; : {
+    &quot;newport&quot; : &quot;&quot;,
+    &quot;lightning&quot; : &quot;&quot;,
+    &quot;newportRtl&quot; : &quot;&quot;,
+    &quot;lightningRtl&quot; : &quot;&quot;
+  },
+  &quot;stepChartPlacement&quot; : &quot;left&quot;,
+  &quot;disableUnloadWarn&quot; : true,
+  &quot;scrollBehavior&quot; : &quot;auto&quot;
+}</propertySetConfig>
+    <subType>C10</subType>
+    <type>C10</type>
+    <uniqueName>C10_C10_English_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <webComponentKey>ccb97f92-63ec-22c1-e238-6da3a29ce265</webComponentKey>
+</OmniScript>

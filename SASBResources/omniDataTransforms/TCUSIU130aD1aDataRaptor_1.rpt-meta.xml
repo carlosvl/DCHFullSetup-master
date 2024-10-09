@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <description>Total energy consumed</description>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>TCUSIU130aD1aDataRaptor</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:AEI:EnergyUsageCommercialBld var:AEI:EnergyUsageDataCenters SUM 0.0036 * &apos;/\/\/&apos; &apos;GJ&apos; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(SUM(AEI:EnergyUsageCommercialBld,AEI:EnergyUsageDataCenters)*0.0036,&apos; &apos;&apos;GJ&apos;)</formulaExpression>
+        <formulaResultPath>AEI:TotalEnergyConsumed</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>TCUSIU130aD1aDataRaptorCustom0jIB0000000HKV4MAOItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>TCUSIU130aD1aDataRaptor</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TCUSIU130aD1aDataRaptorCustom0jIB0000000HKV4MAOItem2</globalKey>
+        <inputFieldName>AEI:TotalEnergyConsumed</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>TCUSIU130aD1aDataRaptor</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHSASB__TCUSIU130aD1a</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>year</filterValue>
+        <globalKey>TCUSIU130aD1aDataRaptorCustom0jIB0000000HKV4MAOItem1</globalKey>
+        <inputFieldName>Year</inputFieldName>
+        <inputObjectName>AnnualEmssnInventory</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>TCUSIU130aD1aDataRaptor</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>AEI</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;year&quot; : &quot;2023&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>TCUSIU130aD1aDataRaptor_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

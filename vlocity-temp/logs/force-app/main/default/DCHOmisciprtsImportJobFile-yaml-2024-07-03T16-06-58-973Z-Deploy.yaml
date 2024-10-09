@@ -1,0 +1,19 @@
+Org: cci-vbt-target
+Version: 1.17.6
+Node: v21.7.3
+PackageVersion: '244.5'
+Namespace: omnistudio
+Job: VDX
+Action: Deploy
+ProjectPath: force-app/main/default/Omnistudio
+TotalTime: 0m 27s
+Count:
+  Success: {}
+Errors: []
+Status:
+  Success: {}
+StatusCount:
+  Remaining: 0
+  Success: 9
+  Error: 0
+id: !<tag:yaml.org,2002:js/undefined> ''

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>TCUSIUManagingSystemicFC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Managing%20Systemic%20Risks%20from%20Technology%20Disruptions%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3ETC-SI-550a.1a%20,%20TC-SI-550a.1b%20,%20TC-SI-550a.1c%20,%20TC-SI-550a.1d%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&amp;bull;%20For%20each%20significant%20service%20disruption,%20the%20entity%20shall%20disclose%20the%20duration%20of%20the%20disruption,%20the%20extent%20of%20impact,%20and%20the%20root%20cause,%20as%20well%20as%20any%20corrective%20actions%20taken%20to%20prevent%20future%20disruptions.%20Where%20material,%20the%20entity%20shall%20indicate%20the%20associated%20cost%20incurred,%20such%20as%20remediation%20costs%20to%20correct%20technology%20or%20process%20issues,%20as%20well%20as%20any%20liability%20costs.%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&amp;bull;%20A%20service%20disruption%20is%20considered%20significant%20if%20the%20cost%20to%20correct%20is%20material%20or%20if%20it%20is%20disruptive%20to%20a%20large%20number%20of%20customers%20or%20fundamental%20business%20operations%20in%20a%20manner%20that%20affects%20time%20to%20market,%20revenue%20capture,%20or%20other%20material%20parameters.&amp;nbsp;%3C/span%3E%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;TCUSIUManagingSystemicFC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;TCUSIUManagingSystemicFC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

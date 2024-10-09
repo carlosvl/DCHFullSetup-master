@@ -1,0 +1,8 @@
+projectPath: force-app/main/default/GRIOmnistudioComponents
+queries:
+  - FlexCard
+  - OmniDataTransform
+  - IntegrationProcedure 
+  - DataRaptor
+  - OmniScript
+  - OmniProcess

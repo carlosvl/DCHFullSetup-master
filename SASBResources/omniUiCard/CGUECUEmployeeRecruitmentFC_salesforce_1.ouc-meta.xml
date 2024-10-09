@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>CGUECUEmployeeRecruitmentFC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Employee%20Recruitment,%20Inclusion%20&amp;amp;%20Performance%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECG-EC-330a.1a%20,%20CG-EC-330a.1b%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThe%20entity%20shall%20briefly%20describe:%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20source%20of%20its%20survey%20(e.g.,%20third-party%20survey%20or%20entity&amp;rsquo;s%20own)%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20methodology%20used%20to%20calculate%20the%20percentage%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20A%20summary%20of%20questions%20or%20statements%20included%20in%20the%20survey%20or%20study%20(e.g.,%20those%20related%20to%20goal%20setting,%20support%20to%20achieve%20goals,%20training%20and%20development,%20work%20processes,%20and%20commitment%20to%20the%20organization)%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20When%20the%20survey%20methodology%20has%20changed%20compared%20to%20previous%20reporting%20years,%20the%20entity%20shall%20indicate%20results%20based%20on%20both%20the%20old%20and%20new%20methods%20for%20the%20year%20in%20which%20the%20change%20is%20made.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20If%20results%20are%20limited%20to%20a%20subset%20of%20employees,%20the%20entity%20shall%20include%20the%20percentage%20of%20employees%20included%20in%20the%20study%20or%20survey%20and%20the%20representativeness%20of%20the%20sample.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20may%20disclose%20results%20of%20other%20survey%20findings,%20such%20as%20the%20percentage%20of%20employees%20who%20are:%20proud%20of%20their%20work/where%20they%20work,%20inspired%20by%20their%20work/co-workers,%20and%20aligned%20with%20corporate%20strategy%20and%20goals.&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECG-EC-330a.3a%20,%20CG-EC-330a.3aa%20,%20CG-EC-330a.3b%20,%20CG-EC-330a.3bb%20,%20CG-EC-330a.3c%20,%20CG-EC-330a.3d%20,%20CG-EC-330a.3e%20,%20CG-EC-330a.3f%20,%20CG-EC-330a.3g%20,%20CG-EC-330a.3h%20,%20CG-EC-330a.3i%20,%20CG-EC-330a.3j%20,%20CG-EC-330a.3k%20,%20CG-EC-330a.3l%20,%20CG-EC-330a.3m%20,%20CG-EC-330a.3n%20,%20CG-EC-330a.3o%20,%20CG-EC-330a.3p%20,%20CG-EC-330a.3q%20,%20CG-EC-330a.3r%20,%20CG-EC-330a.3s%20,%20CG-EC-330a.3t%20,%20CG-EC-330a.3u%20,%20CG-EC-330a.3v%20,%20CG-EC-330a.3w%20,%20CG-EC-330a.3x%20,%20CG-EC-330a.3y%20,%20CG-EC-330a.3z&amp;nbsp;%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20The%20entity%20shall%20describe%20its%20policies%20and%20programs%20for%20fostering%20equitable%20employee%20representation%20across%20its%20global%20operations.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Relevant%20policies%20may%20include%20maintaining%20transparency%20of%20hiring,%20promotion,%20and%20wage%20practices,%20ensuring%20equal%20employment%20opportunity,%20developing%20and%20disseminating%20diversity%20policies,%20and%20ensuring%20management%20accountability%20for%20equitable%20representation.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Relevant%20programs%20may%20include%20trainings%20on%20diversity,%20mentorship%20and%20sponsorship%20programs,%20partnership%20with%20employee%20resource%20and%20advisory%20groups,%20and%20provision%20of%20flexible%20work%20schedules%20to%20accommodate%20the%20varying%20needs%20of%20employees.%3C/div%3E%0A%3Cdiv%3E&amp;bull;%20Relevant%20aspects%20of%20employee%20representation%20include,%20at%20a%20minimum,%20gender%20and%20race/ethnicity.%20The%20entity%20may%20disclose%20on%20other%20aspects%20of%20its%20workforce,%20such%20as,%20age,%20physical%20abilities/qualities,%20sexual%20orientation,%20and%20religious%20beliefs,%20as%20relevant%20to%20local%20jurisdiction.&amp;nbsp;%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;CGUECUEmployeeRecruitmentFC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;CGUECUEmployeeRecruitmentFC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

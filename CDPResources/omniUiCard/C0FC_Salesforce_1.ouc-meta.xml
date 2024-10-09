@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C0FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%20color:%20#000000;%22%3E%3Cstrong%3EC0%20Introduction%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.1)%20Give%20a%20general%20description%20and%20introduction%20to%20your%20organization.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Ch3%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThis%20will%20help%20data%20users%20interpret%20your%20responses.%3C/span%3E%3C/h3%3E%0A%3Ch3%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%20style=%22background-color:%20initial;%22%3EGeneral%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Cul%3E%0A%3Cli%3EProvide%20information%20about%20your%20operations%20to%20help%20data%20users%20understand%20your%20greenhouse%20gas%20(GHG)%20emissions%20inventory%20and%20corporate%20climate%20change%20strategy.%20Include%20information%20on%20your%20business%20divisions%20and%20your%20emissions-generating%20activities%20(e.g.%20extraction%20and/or%20processing/refining%20of%20natural%20resources,%20electricity%20generation,%20transportation,%20manufacturing%20etc.).%3C/li%3E%0A%3Cli%3EThis%20information%20helps%20data%20users%20understand%20your%20company&amp;rsquo;s%20emissions%20profile%20and%20differences%20in%20emissions%20figures%20between%20peer%20companies.%3C/li%3E%0A%3Cli%3EYou%20may%20also%20provide%20any%20other%20information%20which%20is%20relevant%20to%20your%20disclosure.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EOrganization%3C/strong%3E:%20Throughout%20this%20questionnaire,%20&amp;ldquo;your%20organization&amp;rdquo;%20refers%20collectively%20to%20all%20the%20companies,%20businesses,%20other%20entities%20or%20groups%20that%20fall%20within%20the%20definition%20of%20your%20reporting%20boundary%20(provided%20in%20C0.5).%20This%20term%20is%20used%20interchangeably%20with%20&amp;ldquo;your%20company&amp;rdquo;,%20but%20CDP%20recognizes%20that%20some%20disclosing%20organizations%20may%20not%20consider%20themselves%20to%20be,%20or%20be%20formally%20classified,%20as%20&amp;ldquo;companies&amp;rdquo;.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.2)%20State%20the%20start%20and%20end%20date%20of%20the%20year%20for%20which%20you%20are%20reporting%20data.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20will%20help%20data%20users%20interpret%20your%20responses.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EApply%20this%20reporting%20year%20to%20your%20answers%20for%20the%20entire%20questionnaire%20unless%20the%20ability%20is%20provided%20to%20specify%20other%20reporting%20periods.%3C/li%3E%0A%3Cli%3EPlease%20ensure%20that%20the%20reporting%20period%20represents%20only%20one%20full%20year%20that%20has%20already%20passed.%20Reporting%20periods%20should%20not%20be%20in%20the%20future.%20This%20information%20is%20important%20for%20others%20to%20understand%20the%20time%20dimension%20of%20your%20disclosure.%3C/li%3E%0A%3Cli%3EIf%20you%20are%20using%20the%20Export/Import%20functionality,%20please%20check%20that%20the%20imported%20date%20is%20correct.%3C/li%3E%0A%3Cli%3EThe%20current%20reporting%20year%20is%20the%20most%20recent%2012-month%20period%20for%20which%20data%20is%20reported.%3C/li%3E%0A%3Cli%3EThis%20reporting%20period%20applies%20to%20all%20answers%20except%20where%20other%20reporting%20periods%20can%20be%20disclosed.%20CDP%20does%20not%20require%20companies%20to%20align%20their%20reporting%20year%20with%20their%20fiscal%20year.%20However,%20when%20organizations%20report%20emissions%20intensity%20using%20a%20financial%20metric,%20both%20emissions%20and%20financial%20information%20provided%20should%20align%20with%20the%20reporting%20year%20reported%20here.%3C/li%3E%0A%3Cli%3ENote%20that%20the%20investment%20community%20generally%20prefers%20a%20company&apos;s%20disclosure%20period%20to%20match%20the%20fiscal%20year%20for%20their%20financial%20jurisdiction.%20This%20facilitates%20the%20assessment%20of%20environmental%20performance%20data%20in%20alignment%20with%20financial%20performance%20data.%3C/li%3E%0A%3Cli%3ECDP%20recommends%20that%20companies%20provide%20a%20year%20for%20which%20they%20have%20complete%20data%20if%20possible.%20However,%20if%20you%20do%20not%20have%20data%20for%20the%20entirety%20of%20your%20reporting%20year,%20you%20have%20the%20following%20options:%3C/li%3E%0A%3C/ul%3E%0A%3Cp%3E&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;-%20Extrapolate%20your%20data%20to%20cover%20the%20entire%20reporting%20year.%3Cbr%20/%3E&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;-%20Outline%20in%20C6.4%20the%20sources%20of%20Scope%201%20and%202%20emissions%20within%20your%20selected%20reporting%20boundary%20and%20not%20included%20in%20your%20disclosure.%3C/p%3E%0A%3Cul%3E%0A%3Cli%3ESelect%20%22No%22%20in%20column%203%20(Indicate%20if%20you%20are%20providing%20data%20for%20past%20reporting%20years)%20unless%20you%20are%20a%20first%20time%20responder%20providing%20emissions%20from%20past%20years%20or%20a%20previous%20responder%20to%20CDP%20who%20is%20restating%20your%20emissions%20data.%20For%20more%20information%20on%20this%20see%20the%20note%20for%20first-time%20responders%20and%20the%20note%20for%20restating%20data%20below.%3C/li%3E%0A%3Cli%3EIf%20multiple%20years%20of%20data%20are%20provided,%20only%20data%20pertaining%20to%20the%20most%20recent%20reporting%20year%20will%20be%20scored.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.3)%20Select%20the%20countries/areas%20in%20which%20you%20operate.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20will%20help%20data%20users%20interpret%20your%20responses.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Cdiv%20id=%22c0-3%22%20class=%22content%22%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ESelect%20all%20countries/areas%20in%20which%20you%20operate%20from%20the%20drop-down%20menu%20provided.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.4)%20Select%20the%20currency%20used%20for%20all%20financial%20information%20disclosed%20throughout%20your%20response.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3E%3Cstrong%3EGeneral%3C/strong%3E%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ESelect%20the%20currency%20to%20be%20applied%20to%20all%20financial%20information%20reported%20in%20this%20disclosure.%3C/li%3E%0A%3Cli%3EFor%20example,%20if%20you%20select%20USD($),%20provide%20metric%20tons%20CO%3Csub%3E2%3C/sub%3Ee%20per%20USD($)%20as%20the%20financial%20intensity%20metric%20in%20question%20C6.10.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.5)%20Select%20the%20option%20that%20describes%20the%20reporting%20boundary%20for%20which%20climate-related%20impacts%20on%20your%20business%20are%20being%20reported.%20Note%20that%20this%20option%20should%20align%20with%20your%20chosen%20approach%20for%20consolidating%20your%20GHG%20inventory.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20will%20help%20data%20users%20interpret%20your%20responses.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3E%3Cstrong%3EGeneral%3C/strong%3E%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EUse%20a%20consolidated%20approach%20when%20determining%20reporting%20boundaries.%20CDP%20recommends%20that%20you%20consult%20your%20legal%20or%20accounting%20advisors%20when%20doing%20so.%3C/li%3E%0A%3Cli%3EThe%20&amp;ldquo;consolidated%20approach&amp;rdquo;%20identifies%20which%20entities%20are%20included%20within%20the%20reporting%20boundary.%20Unless%20stated%20otherwise,%20the%20information%20you%20provide%20in%20response%20to%20the%20CDP%20climate%20change%20questionnaire%20should%20be%20presented%20as%20one%20&amp;ldquo;consolidated&amp;rdquo;%20result%20covering%20all%20of%20the%20companies,%20entities,%20businesses,%20etc.,%20within%20your%20reporting%20boundary.%3C/li%3E%0A%3Cli%3ETo%20support%20the%20use,%20tracking,%20and%20comparability%20of%20reported%20GHG%20information,%20respondents%20are%20encouraged%20to%20adopt%20the%20consolidation%20approaches%20based%20on%20the%20GHG%20Protocol%20Corporate%20Standard,%20outlined%20in%20more%20detail%20in%20Chapter%203%20of%20the%20Standard.%3C/li%3E%0A%3Cli%3EIf%20you%20have%20previously%20disclosed%20emissions%20data%20to%20CDP%20and%20your%20consolidation%20approach%20has%20changed%20in%20the%20current%20reporting%20year,%20select%20your%20new%20approach%20here%20and%20provide%20details%20of%20the%20change%20in%20C5.1b.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3ECompany:%3C/strong%3E&amp;nbsp;Throughout%20this%20questionnaire,%20&amp;ldquo;your%20company&amp;rdquo;%20refers%20collectively%20to%20all%20the%20companies,%20businesses,%20organizations,%20other%20entities%20or%20groups%20that%20fall%20within%20your%20definition%20of%20the%20reporting%20boundary.%20This%20term%20is%20used%20interchangeably%20with%20&amp;ldquo;your%20organization&amp;rdquo;,%20but%20CDP%20recognizes%20that%20some%20disclosing%20organizations%20may%20not%20consider%20themselves%20to%20be,%20or%20be%20formally%20classified,%20as%20&amp;ldquo;companies&amp;rdquo;.%3C/li%3E%0A%3Cli%3E%3Cstrong%3EConsolidation%20approach:&amp;nbsp;%3C/strong%3EThe%20identification%20of%20companies,%20businesses,%20organizations%20etc.%20for%20inclusion%20within%20the%20reporting%20boundary%20of%20the%20responding%20organization.%20The%20way%20in%20which%20you%20report%20information%20for%20the%20companies%20that%20are%20included%20within%20the%20reporting%20boundary%20is%20known%20as%20the%20&amp;ldquo;consolidation%20approach&amp;rdquo;%20because,%20unless%20stated%20otherwise,%20the%20information%20you%20provide%20in%20response%20to%20the%20questionnaire%20should%20be%20presented%20as%20one%20&amp;ldquo;consolidated&amp;rdquo;%20result%20covering%20all%20of%20the%20companies,%20entities,%20businesses%20etc%20within%20your%20reporting%20boundary.%20The%20GHG%20Protocol%20states%20that%20two%20distinct%20approaches%20may%20be%20used%20to%20consolidate%20GHG%20emissions;%20the%20equity%20share%20and%20the%20control%20approaches.%20Control%20can%20be%20defined%20in%20either%20financial%20(financial%20control)%20or%20operational%20(operational%20control)%20terms.%20This%20term%20is%20used%20interchangeably%20with%20&amp;ldquo;your%20organization&amp;rdquo;,%20but%20CDP%20recognizes%20that%20some%20disclosing%20organizations%20may%20not%20consider%20themselves%20to%20be,%20or%20be%20formally%20classified,%20as%20&amp;ldquo;companies&amp;rdquo;.%3C/li%3E%0A%3Cli%3E%3Cstrong%3EGHG%20inventory%3C/strong%3E:%20a%20quantified%20list%20of%20an%20organization&amp;rsquo;s%20greenhouse%20gas%20emissions%20and%20sources.%3C/li%3E%0A%3Cli%3E%3Cstrong%3EOrganization:%3C/strong%3E&amp;nbsp;Throughout%20this%20questionnaire,%20&amp;ldquo;your%20organization&amp;rdquo;%20refers%20collectively%20to%20all%20the%20companies,%20businesses,%20other%20entities%20or%20groups%20that%20fall%20within%20the%20definition%20of%20your%20reporting%20boundary%20(provided%20in%20C0.5).%20This%20term%20is%20used%20interchangeably%20with%20&amp;ldquo;your%20company&amp;rdquo;,%20but%20CDP%20recognizes%20that%20some%20disclosing%20organizations%20may%20not%20consider%20themselves%20to%20be,%20or%20be%20formally%20classified,%20as%20&amp;ldquo;companies&amp;rdquo;.%3C/li%3E%0A%3Cli%3E%3Cstrong%3EReporting%20boundary:&amp;nbsp;%3C/strong%3EThis%20determines%20which%20organizational%20entities,%20such%20as%20groups,%20businesses%20and%20companies,%20are%20included%20in%20or%20excluded%20from%20your%20disclosure.%20These%20may%20be%20included%20according%20to%20your%20financial%20control,%20operational%20control,%20equity%20share%20or%20another%20measure.%20Please%20consistently%20apply%20this%20organizational%20boundary%20when%20responding%20to%20questions%20unless%20you%20are%20specifically%20asked%20for%20data%20about%20another%20category%20of%20activities.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C0.8)%20Does%20your%20organization%20have%20an%20ISIN%20code%20or%20another%20unique%20identifier%20(e.g.,%20Ticker,%20CUSIP,%20etc.)?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EISIN%20codes%20and%20other%20market%20identifiers%20are%20used%20globally%20in%20the%20identification%20of%20securities%20such%20as%20bonds,%20futures,%20and%20stocks.%20Providing%20your%20organization&amp;rsquo;s%20unique%20identifier(s)%20will%20increase%20the%20transparency%20of%20your%20response.%3C/p%3E%0A%3Cp%3E%3Cstrong%3E&amp;nbsp;%3C/strong%3E%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3E%3Cstrong%3EGeneral%3C/strong%3E%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EIf%20your%20organization%20has%20multiple%20unique%20identifiers,%20add%20a%20row%20for%20each.%3C/li%3E%0A%3C/ul%3E%0A%3Ch4%3EProvide%20your%20unique%20identifier%20(column%202)%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EThis%20column%20is%20only%20presented%20if%20one%20of%20the%20&amp;ldquo;Yes&amp;rdquo;%20options%20is%20selected%20in%20column%201.%3C/li%3E%0A%3Cli%3EEnsure%20that%20you%20enter%20the%20correct%20format%20for%20your%20unique%20identifier.%20For%20example,%20ISIN%20codes%20include%20a%20two-letter%20country%20code,%20followed%20by%20a%20nine-character%20alphanumeric%20identifier%20and%20a%20single%20check%20digit.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EISIN:%3C/strong%3E%20International%20Securities%20Identification%20Number,%20a%2012-character%20alphanumeric%20code%20used%20to%20identify%20a%20security,%20such%20as%20a%20stock%20or%20bond.%20It%20is%20structured%20with%20the%20first%20two%20letters%20referencing%20the%20country%20of%20origin%20of%20the%20issuer%20for%20the%20security,%20in%20accordance%20with%20%3Ca%20href=%22https://www.iso.org/iso-3166-country-codes.html%22%3EISO%203166%3C/a%3E%20.%20The%20second%20grouping%20consists%20of%20nine%20characters%20made%20up%20of%20digits%20and%20letters,%20which%20is%20the%20unique%20identifying%20code%20for%20the%20security.%20In%20the%20U.S.%20and%20Canada%20this%20is%20known%20as%20the%20CUSIP%20number%20(see%20below).%20The%20final%20digit%20is%20the%20check%20digit,%20which%20ensures%20the%20authenticity%20of%20the%20code.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ECUSIP%20number:%3C/strong%3E&amp;nbsp;Committee%20on%20Uniform%20Security%20Identification%20Procedures%20number,%20a%209-character%20alphanumeric%20code%20that%20identifies%20a%20security%20for%20the%20purposes%20of%20facilitating%20clearing%20and%20settlement%20of%20trades.%20CUSIPs%20are%20used%20to%20distinguish,%20among%20other%20reasons,%20between%20multiple%20share%20classes%20or%20bond%20tranches.%20CUSIPs%20are%20mostly%20used%20in%20the%20United%20States%20and%20Canada.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ETicker%20symbol:%3C/strong%3E&amp;nbsp;A%20ticker%20symbol,%20also%20known%20as%20a%20stock%20symbol,%20is%20a%20unique%20series%20of%20letters%20assigned%20to%20a%20security%20for%20trading%20purposes.%20Ticker%20symbols%20are%20usually%20related%20to%20the%20organization&amp;rsquo;s%20name,%20and%20additional%20letters%20denote%20additional%20characteristics%20such%20as%20share%20class%20or%20trading%20restrictions.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ESEDOL%20code:%3C/strong%3E&amp;nbsp;Stock%20Exchange%20Daily%20Official%20List%20code,%20a%207-character%20identification%20code%20consisting%20of%20two%20parts:%20a%206-character%20alphanumeric%20code%20and%20a%20trailing%20check%20digit.%20SEDOLs%20issued%20prior%20to%20January%2026,%202004%20were%20composed%20only%20of%20numbers.%20SEDOLs%20serve%20as%20the%20National%20Securities%20Identifying%20Number%20for%20all%20securities%20issued%20in%20the%20United%20Kingdom.%3C/li%3E%0A%3C/ul%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C0FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C0FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

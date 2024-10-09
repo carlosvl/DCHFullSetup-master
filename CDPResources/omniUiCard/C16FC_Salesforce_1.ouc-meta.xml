@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C16FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Cdiv%3E%0A%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3EC16%20Signoff%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C16.1)%20Provide%20details%20for%20the%20person%20that%20has%20signed%20off%20(approved)%20your%20CDP%20climate%20change%20response.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20asks%20companies%20to%20identify%20the%20job%20title%20and%20corresponding%20job%20category%20of%20the%20person%20signing%20off%20(approving)%20the%20CDP%20response.%20This%20information%20signals%20to%20investors%20where%20in%20the%20corporate%20structure%20direct%20responsibility%20is%20being%20taken%20for%20the%20response%20and%20the%20information%20contained%20therein.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Ch4%3EJob%20title%20(column%201)%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EEnter%20the%20title%20of%20the%20person%20who%20has%20signed%20off%20on%20this%20CDP%20response.%3C/li%3E%0A%3Cli%3EIf%20you%20select%20&amp;ldquo;Other,%20please%20specify&amp;rdquo;,%20provide%20a%20label%20for%20the%20corresponding%20job%20category.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20this%20question%20asks%20about%20the%20position%20and%20not%20about%20the%20name%20of%20the%20individual%20holding%20this%20position.%20Do%20not%20include%20names%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBoard%3C/strong%3E:%20Or%20%22Board%20of%20Directors%22%20refers%20to%20a%20body%20of%20elected%20or%20appointed%20members%20who%20jointly%20oversee%20the%20activities%20of%20a%20company%20or%20organization.%20Some%20countries%20use%20a%20two-tiered%20system%20where%20%22board%22%20refers%20to%20the%20%22supervisory%20board%22%20while%20%22key%20executives%22%20refers%20to%20the%20%22management%20board%22.%3C/li%3E%0A%3C/ul%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C16FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C16FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C1FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3EC1%20Governance%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#236fa1;%22%3E%3Cstrong%3E(C1.1)%20Is%20there%20board-level%20oversight%20of%20climate-related%20issues%20within%20your%20organization?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20provides%20an%20indication%20of%20the%20importance%20of%20climate-related%20issues%20to%20your%20business.%20Investors%20and%20other%20data%20users%20are%20interested%20in%20an%20organization&apos;s%20understanding%20and%20approach%20to%20climate-related%20risks%20at%20the%20board%20level;%20how%20aligned%20this%20is%20with%20business%20strategy,%20policies,%20and%20performance%20objectives;%20and%20how%20the%20board%20monitors%20progress%20against%20targets%20and%20goals.%3C/p%3E%0A%3Cp%3E%3Cstrong%3E&amp;nbsp;%3C/strong%3E%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EConsider%20whether%20the%20board%20and/or%20board%20committees%20take%20account%20of%20climate-related%20issues%20when%20reviewing%20and%20guiding%20their%20business%20strategy,%20major%20plans%20of%20action,%20risk%20management%20policies,%20annual%20budgets,%20and%20budget%20plans%20as%20well%20as%20setting%20the%20organization&apos;s%20performance%20objectives,%20monitoring%20implementation%20and%20performance,%20and%20overseeing%20major%20capital%20expenditures,%20acquisitions,%20and%20divestitures.%3C/li%3E%0A%3Cli%3EIf%20your%20organization%20has%20board-level%20oversight%20of%20risk%20assessment%20that%20includes%20climate-related%20risks,%20select%20%22Yes%22.%20You&apos;ll%20be%20able%20to%20provide%20details%20in%20subsequent%20questions.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EBoard%3C/strong%3E:%20Or%20&amp;ldquo;Board%20of%20Directors&amp;rdquo;%20refers%20to%20a%20body%20of%20elected%20or%20appointed%20members%20who%20jointly%20oversee%20the%20activities%20of%20a%20company%20or%20organization.%20Some%20countries%20use%20a%20two-tiered%20system%20where%20&amp;ldquo;board&amp;rdquo;%20refers%20to%20the%20&amp;ldquo;supervisory%20board&amp;rdquo;%20while%20&amp;ldquo;key%20executives&amp;rdquo;%20refers%20to%20the%20&amp;ldquo;management%20board%22.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.1a)%20Identify%20the%20position(s)%20(do%20not%20include%20any%20names)%20of%20the%20individual(s)%20on%20the%20board%20with%20responsibility%20for%20climate-related%20issues.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20provides%20an%20indication%20of%20the%20importance%20of%20climate-related%20issues%20to%20your%20business%20and%20aims%20to%20identify%20the%20highest-level%20individual(s)%20on%20the%20board%20with%20direct%20responsibility%20for%20climate-related%20issues.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EReport%20where%20in%20the%20board%20the%20responsibility%20for%20oversight%20of%20climate-related%20issues%20lies.%20This%20may%20be%20with%20an%20individual%20member%20of%20the%20board%20or%20a%20board-level%20committee,%20e.g.%20sustainability%20committee,%20risk%20committee,%20etc.%3C/li%3E%0A%3Cli%3ENote%20that%20this%20question%20is%20asking%20about%20direct%20responsibility%20for%20oversight.%20In%20practical%20terms,%20this%20is%20the%20person%20or%20committee%20at%20the%20top%20of%20the%20chain%20of%20command%20specifically%20managing%20information%20on%20climate-related%20issues,%20making%20decisions%20about%20what%20the%20company%20will%20do%20and%20adapting%20those%20decisions%20based%20on%20climate-related%20information.%3C/li%3E%0A%3Cli%3EThe%20CEO%20is%20ultimately%20responsible%20for%20everything%20in%20the%20company;%20however%20this%20question%20is%20looking%20to%20identify%20board-level%20responsibility%20specifically%20on%20climate-related%20issues.%20While%20this%20may%20be%20the%20CEO,%20it%20is%20not%20necessarily%20always%20the%20case.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20this%20question%20asks%20about%20the%20position%20and%20not%20about%20the%20names%20of%20the%20staff%20holding%20these%20positions.%20Do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EC-suite%3C/strong%3E:%20A%20term%20used%20to%20collectively%20refer%20to%20the%20most%20senior%20executive%20team.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.1b)%20Provide%20further%20details%20on%20the%20board&amp;rsquo;s%20oversight%20of%20climate-related%20issues%3C/strong%3E.%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20question%20provides%20an%20indication%20of%20the%20importance%20of%20climate-related%20issues%20to%20your%20business.%20Investors%20are%20interested%20in%20organizations&amp;rsquo;%20understanding%20and%20approach%20to%20climate-related%20risks%20at%20the%20board%20level;%20how%20aligned%20this%20is%20with%20organizational%20strategy,%20plans%20of%20action,%20management%20policies,%20and%20performance%20objectives;%20and%20how%20the%20board%20monitors%20progress%20against%20targets%20and%20goals.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EYou%20should%20consider%20the%20frequency%20that%20climate-related%20issues%20are%20a%20scheduled%20agenda%20item%20for%20the%20principal%20board-level%20committee%20having%20oversight%20for%20climate-related%20issues.%20This%20may%20be%20a%20subcommittee%20of%20the%20board,%20or%20the%20full%20board%20itself.%3C/li%3E%0A%3Cli%3EIf%20you%20select%20&amp;ldquo;Other,%20please%20specify&amp;rdquo;%20provide%20a%20label%20for%20the%20Frequency%20with%20which%20climate-related%20issues%20are%20a%20scheduled%20agenda%20item.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20your%20response%20to%20this%20question%20may%20refer%20to%20the%20position%20of%20employees%20relevant%20to%20board%20oversight%20mechanisms.%20In%20this%20case,%20do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.1c)%20Why%20is%20there%20no%20board-level%20oversight%20of%20climate-related%20issues%20and%20what%20are%20your%20plans%20to%20change%20this%20in%20the%20future?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EAs%20board-level%20oversight%20of%20climate-related%20issues%20is%20considered%20best%20practice,%20this%20question%20allows%20organizations%20to%20explain%20why%20there%20is%20no%20board-level%20oversight.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Cdiv%20id=%22c1-1c%22%20class=%22content%22%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EPrimary%20reason%20(column%201)%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EProvide%20your%20organization&apos;s%20main%20rationale%20for%20not%20currently%20having%20board-level%20oversight%20of%20climate-related%20issues.%3C/li%3E%0A%3C/ul%3E%0A%3Ch4%3EPlease%20explain%20(column%203)%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EExplain%20what%20you%20plan%20to%20implement%20in%20the%20next%20two%20years,%20or%20why%20you%20do%20not%20currently%20plan%20to%20do%20so.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.1d)%20Does%20your%20organization%20have%20at%20least%20one%20board%20member%20with%20competence%20on%20climate-related%20issues?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ETransitioning%E2%80%AFa%E2%80%AFbusiness%E2%80%AFfor%20success%20in%20a%20sustainable%20future%E2%80%AFrequires%20related%20expertise%20within%E2%80%AFits%E2%80%AFdecision-making%20bodies.%E2%80%AFThis%20capability%20at%20board%20level%20signals%E2%80%AFa%E2%80%AFcompany&amp;rsquo;s%20commitment%E2%80%AFto%20understanding%E2%80%AFand%E2%80%AFresponding%20to%20risks,%E2%80%AFopportunities,%E2%80%AFand%20impacts.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EConsider%20whether%20any%20kind%20of%20skills,%20experience%20or%20expertise%20assessment%20of%20your%20board%20is%20conducted%20for%20environmental%20issues.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20your%20response%20to%20this%20question%20may%20refer%20to%20the%20position%20of%20employees%20relevant%20to%20board-level%20competence.%20In%20this%20case,%20do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.2)%20Provide%20the%20highest%20management-level%20position(s)%20or%20committee(s)%20with%20responsibility%20for%20climate-related%20issues.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EWhile%20it%20is%20most%20important%20for%20a%20member%20of%20the%20board%20to%20have%20responsibility%20for%20climate-related%20issues,%20assigning%20management-level%20responsibility%20indicates%20to%20CDP%20data%20users%20that%20the%20organization%20is%20committed%20to%20implementing%20its%20climate-related%20strategy.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EPlease%20provide%20details%20of%20the%20highest%20management-level%20position%20or%20committee%20with%20a%20responsibility%20for%20climate-related%20issues.%3C/li%3E%0A%3Cli%3EThe%20responsibility%20may%20be%20for%20assessing%20and/or%20managing%20climate-related%20risks%20and%20opportunities,%20or%20have%20another%20primary%20focus.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20this%20question%20asks%20about%20the%20position%20and%20not%20about%20the%20names%20of%20the%20staff%20holding%20these%20positions.%20Do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3EExplanation%20of%20terms%3C/strong%3E%3C/h3%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3EHighest%20management-level%20position(s)%20or%20committee(s)%3C/strong%3E:%20The%20most%20senior%20individual%20or%20committee%20with%20operational%20responsibility%20for%20the%20implementation%20of%20decisions%20taken%20at%20the%20board%20level%20and%20day-to-day%20management.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.2a)%20Describe%20where%20in%20the%20organizational%20structure%20this/these%20position(s)%20and/or%20committees%20lie,%20what%20their%20associated%20responsibilities%20are,%20and%20how%20climate-related%20issues%20are%20monitored%20(do%20not%20include%20the%20names%20of%20individuals).%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EWhile%20it%20is%20most%20important%20for%20a%20member%20of%20the%20board%20to%20have%20responsibility%20for%20climate-related%20issues,%20assigning%20management-level%20responsibility%20indicates%20to%20CDP%20data%20users%20that%20the%20organization%20is%20committed%20to%20implementing%20a%20climate-related%20strategy.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EUse%20the%20text%20box%20to%20describe%20where%20the&amp;nbsp;%3Cstrong%3Ehighest%20management-level%3C/strong%3E&amp;nbsp;position(s)/committee(s)%20with%20responsibility%20for%20climate-related%20issues%20sit%20in%20the%20organizational%20structure,%20their%20responsibilities,%20and%20how%20climate-related%20issues%20are%20monitored.%3C/li%3E%0A%3Cli%3EGive%20a%20company-specific%20description%20including:%3C/li%3E%0A%3C/ul%3E%0A%3Cp%3E&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;i.%20Where%20in%20the%20organizational%20structure%20this%20position(s)/committee(s)%20lie;%3Cbr%20/%3E&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20&amp;nbsp;%20ii.%20A%20rationale%20of%20why%20responsibilities%20for%20climate-related%20issues%20have%20been%20assigned%20to%20this/these%20position(s)%20or%20committee(s).%3C/p%3E%0A%3Cul%3E%0A%3Cli%3EIf%20you%20selected%20%22There%20is%20no%20management%20level%20responsibility%20for%20climate-related%20issues%22%20in%20C1.2%20explain%20your%20selection%20here.%3C/li%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20this%20question%20asks%20about%20the%20position%20and%20not%20about%20the%20names%20of%20the%20staff%20holding%20these%20positions.%20Do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C1.3)%20Do%20you%20provide%20incentives%20for%20the%20management%20of%20climate-related%20issues,%20including%20the%20attainment%20of%20targets?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20data%20users%20aim%20to%20understand%20the%20degree%20to%20which%20companies%20encourage%20their%20employees%20to%20address%20climate-related%20issues%20and%20impacts%20of%20the%20business,%20as%20well%20as%20the%20mechanisms%20by%20which%20companies%20are%20incentivizing%20certain%20behaviors%20and%20performances.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3ENote%20that%20incentives%20can%20be%20positive%20(i.e.%20give%20people%20something)%20or%20negative%20(prevent%20access%20to%20something).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E(C1.3a)%20Provide%20further%20details%20on%20the%20incentives%20provided%20for%20the%20management%20of%20climate-related%20issues%20(do%20not%20include%20the%20names%20of%20individuals).%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20data%20users%20aim%20to%20understand%20the%20degree%20to%20which%20companies%20encourage%20their%20employees%20to%20address%20climate-related%20issues%20and%20impacts%20of%20the%20business,%20as%20well%20as%20the%20mechanisms%20by%20which%20companies%20are%20incentivizing%20certain%20behaviors%20and%20performances.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3E%3Cstrong%3ENote%20that%20this%20question%20asks%20about%20the%20position%20of%20employees%20receiving%20incentives.%20Do%20not%20include%20the%20name%20of%20any%20individual%20or%20any%20other%20personal%20data%20in%20your%20response.%3C/strong%3E%3C/li%3E%0A%3C/ul%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : null,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C1FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C1FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

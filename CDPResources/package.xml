@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+		<types>
+		<members>C0FC_Salesforce_1</members>
+		<members>C1FC_Salesforce_1</members>
+		<members>C2FC_Salesforce_1</members>
+		<members>C3FC_Salesforce_1</members>
+		<members>C4FC_Salesforce_1</members>
+		<members>C5FC_Salesforce_1</members>
+		<members>C6FC_Salesforce_1</members>
+		<members>C7FC_Salesforce_1</members>
+		<members>C8FC_Salesforce_1</members>
+		<members>C9FC_Salesforce_1</members>
+		<members>C10FC_Salesforce_1</members>
+		<members>C11FC_Salesforce_1</members>
+		<members>C12FC_Salesforce_1</members>
+		<members>C15FC_Salesforce_1</members>
+		<members>C16FC_Salesforce_1</members>
+		<members>CDPconfirmPage_Salesforce_1</members>
+		<members>ReportingYearHelpText_Salesforce_1</members>
+		<name>OmniUiCard</name>
+    </types>
+
+	<types>
+		<members>C0_C0_English_1</members>
+		<members>C1_C1_English_1</members>
+		<members>C2_C2_English_1</members>
+		<members>C3_C3_English_1</members>
+		<members>C4_C4_English_1</members>
+		<members>C5_C5_English_1</members>
+		<members>C6_C6_English_1</members>
+		<members>C7_C7_English_1</members>
+		<members>C8_C8_English_1</members>
+		<members>C9_C9_English_1</members>
+		<members>C10_C10_English_1</members>
+		<members>C11_C11_English_1</members>
+		<members>C12_C12_English_1</members>
+		<members>C15_C15_English_1</members>
+		<members>C16_C16_English_1</members>
+		<members>CDP2023_CDP2023DF_English_1</members>
+		<name>OmniScript</name>
+	</types>
+	
+	<types>
+		<members>CDPIP_CDPIP_Procedure_1</members>
+		<members>CDP_Prefilling_Procedure_1</members>
+		<members>CDPstartdate_CDPenddate_Procedure_1</members>
+		<members>C6D1_IP_Procedure_1</members>
+		<name>OmniIntegrationProcedure</name>
+	</types>
+	
+	<types>
+		<members>C2D1aDR_1</members>
+		<members>C2D2aDR_1</members>
+		<members>C3D3DR_1</members>
+		<members>C4D3aDR_1</members>	
+		<members>C5D2DR_1</members>
+		<members>C6D1DR_1</members>
+		<members>C6D3DR_1</members>
+		<members>C6D5aDR_1</members>
+		<members>C7D9aDR_1</members>
+		<members>C7D9DR_1</members>
+		<members>C8D2bDR_1</members>	
+		<members>C8D2cDR_1</members>
+		<members>C8D2dDR_1</members>
+		<members>C10D1DR_1</members>
+		<members>GetCDPStartandEnddates_1</members>
+		<name>OmniDataTransform</name>
+	</types>
+
+    <version>57.0</version>
+</Package>

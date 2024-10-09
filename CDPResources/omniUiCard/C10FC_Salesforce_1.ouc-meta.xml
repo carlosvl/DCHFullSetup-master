@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfig>{
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  }
+}</dataSourceConfig>
+    <isActive>true</isActive>
+    <name>C10FC</name>
+    <omniUiCardType>Parent</omniUiCardType>
+    <propertySetConfig>{
+  &quot;states&quot; : [ {
+    &quot;fields&quot; : [ ],
+    &quot;conditions&quot; : {
+      &quot;id&quot; : &quot;state-condition-object&quot;,
+      &quot;isParent&quot; : true,
+      &quot;group&quot; : [ ]
+    },
+    &quot;definedActions&quot; : {
+      &quot;actions&quot; : [ ]
+    },
+    &quot;name&quot; : &quot;Active&quot;,
+    &quot;isSmartAction&quot; : false,
+    &quot;smartAction&quot; : { },
+    &quot;styleObject&quot; : {
+      &quot;padding&quot; : [ {
+        &quot;type&quot; : &quot;around&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;margin&quot; : [ {
+        &quot;type&quot; : &quot;bottom&quot;,
+        &quot;size&quot; : &quot;x-small&quot;
+      } ],
+      &quot;container&quot; : {
+        &quot;class&quot; : &quot;slds-card&quot;
+      },
+      &quot;size&quot; : {
+        &quot;isResponsive&quot; : false,
+        &quot;default&quot; : &quot;12&quot;
+      },
+      &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;,
+      &quot;class&quot; : &quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;
+    },
+    &quot;components&quot; : {
+      &quot;layer-0&quot; : {
+        &quot;children&quot; : [ {
+          &quot;name&quot; : &quot;Text&quot;,
+          &quot;element&quot; : &quot;outputField&quot;,
+          &quot;size&quot; : {
+            &quot;isResponsive&quot; : false,
+            &quot;default&quot; : &quot;12&quot;
+          },
+          &quot;stateIndex&quot; : 0,
+          &quot;class&quot; : &quot;slds-col &quot;,
+          &quot;property&quot; : {
+            &quot;record&quot; : &quot;{record}&quot;,
+            &quot;mergeField&quot; : &quot;%3Ch1%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3EC10%20Verification%3C/strong%3E%3C/span%3E%3C/h1%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C10.1)%20Indicate%20the%20verification/assurance%20status%20that%20applies%20to%20your%20reported%20emissions.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting.%20This%20question%20gives%20data%20users%20further%20confidence%20in%20the%20accuracy%20of%20the%20data%20reported.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EPlease%20provide%20the%20verification/assurance%20status%20that%20applies%20to%20your%20Scope%201,%20Scope%202,%20and%20Scope%203%20emissions.%20If%20you%20have%20had%20a%20proportion%20of%20your%20Scope%201,%202,%20and/or%203%20emissions%20verified,%20please%20select%20the%20option%20that%20applies%20to%20these%20emissions;%20you%20will%20be%20given%20an%20opportunity%20to%20provide%20further%20details%20in%20the%20following%20questions.%3C/li%3E%0A%3Cli%3EIf%20verification/assurance%20is%20underway,%20or%20part%20of%20a%20biennial%20or%20triennial%20process:%20It%20is%20recognized%20that%20for%20some%20companies,%20the%20verification/assurance%20schedule%20is%20out%20of%20synchronization%20with%20the%20CDP%20disclosure%20process%20and%20therefore%20it%20is%20difficult%20to%20complete%20the%20verification/assurance%20process%20before%20the%20CDP%20deadline.%20In%20addition,%20verification/assurance%20processes%20may%20occur%20every%20two%20years%20(biennial%20verification)%20or%20every%20three%20years%20(triennial%20verification).%20Where%20this%20is%20the%20case,%20you%20should%20select%20&amp;ldquo;Verification%20or%20assurance%20process%20in%20place&amp;rdquo;%20and%20provide%20further%20information%20in%20the%20following%20questions.%3C/li%3E%0A%3Cli%3EIn%20the%20following%20questions%20you%20will%20be%20asked%20to%20provide%20evidence%20of%20any%20third-party%20verification%20that%20you%20have%20reported%20in%20this%20question.%20Companies%20are%20advised%20to%20verify%20that%20their%20evidence%20can%20demonstrate%20all%20of%20the%20requirements%20set%20by%20CDP%20before%20answering%20this%20question%20(e.g.%20by%20consulting%20with%20their%20verifier/assurer).%20Full%20details%20are%20provided%20in%20the%20guidance%20for%20questions%20C10.1a,%20C10.1b%20and%20C10.1c.%20If%20certain%20information%20requirements%20set%20by%20CDP%20are%20not%20met%20in%20the%20standard%20assurance%20statement%20provided%20by%20your%20verifier,%20CDP%20has%20produced%20a&amp;nbsp;%3Ca%20href=%22https://cdn.cdp.net/cdp-production/cms/guidance_docs/pdfs/000/000/491/original/CDP-verification-template.zip?1480955992%22%20target=%22_blank%22%20rel=%22noopener%22%3Etemplate%3C/a%3E&amp;nbsp;that%20can%20be%20used%20in%20conjunction%20with%20the%20original%20assurance%20statement.%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#236fa1;%22%3E%3Cstrong%3E(C10.1a)%20Provide%20further%20details%20of%20the%20verification/assurance%20undertaken%20for%20your%20Scope%201%20emissions%20and%20attach%20the%20relevant%20statements.%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting.%20This%20question%20gives%20data%20users%20further%20confidence%20in%20the%20accuracy%20of%20the%20data%20reported.%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EIf%20you%20are%20reporting%20third%20party%20verification%20or%20assurance%20underway,%20your%20entries%20into%20the%20table%20should%20reflect%20the%20emissions%20that%20are%20being%20subject%20to%20verification/assurance%20for%20the%20current%20reporting%20year,%20with%20the%20exception%20of%20the%20attached%20statement,%20which%20will%20relate%20to%20a%20previous%20year.%3C/li%3E%0A%3Cli%3ECDP%20understands%20that%20you%20may%20seek%20verification%20for%20reasons%20other%20than%20reporting%20to%20CDP%20and%20that%20confidential%20information%20may%20be%20included%20within%20your%20detailed%20verification%20statement.%20In%20this%20case,%20it%20is%20sufficient%20for%20your%20verifier/assurer%20to%20attest%20to%20the%20Scope%20and%20level%20of%20assurance/verification%20through%20correspondence%20such%20as%20an%20abbreviated%20statement%20as%20long%20as%20this%20covers%20the%20data%20points%20outlined%20below%20(see%20guidance%20for%20column%204%20&amp;lsquo;Attach%20your%20statement%20here&amp;rsquo;).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C10.1b)%20Provide%20further%20details%20of%20the%20verification/assurance%20undertaken%20for%20your%20Scope%202%20emissions%20and%20attach%20the%20relevant%20statements.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting.%20This%20question%20gives%20data%20users%20further%20confidence%20in%20the%20accuracy%20of%20the%20data%20reported.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EIf%20you%20are%20reporting%20third%20party%20verification%20or%20assurance%20underway,%20your%20entries%20into%20the%20table%20should%20reflect%20the%20emissions%20that%20are%20being%20subject%20to%20verification/assurance%20for%20the%20current%20reporting%20year,%20with%20the%20exception%20of%20the%20attached%20statement,%20which%20will%20relate%20to%20a%20previous%20year.%3C/li%3E%0A%3Cli%3ECDP%20understands%20that%20you%20may%20seek%20verification%20for%20reasons%20other%20than%20reporting%20to%20CDP%20and%20that%20confidential%20information%20may%20be%20included%20within%20your%20detailed%20verification%20statement.%20In%20this%20case,%20it%20is%20sufficient%20for%20your%20verifier/assurer%20to%20attest%20to%20the%20Scope%20and%20level%20of%20assurance/verification%20through%20correspondence%20such%20as%20an%20abbreviated%20statement%20as%20long%20as%20this%20covers%20the%20data%20points%20outlined%20below%20(see%20guidance%20for%20column%205%20%22Attach%20your%20statement%20here%22)%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C10.1c)%20Provide%20further%20details%20of%20the%20verification/assurance%20undertaken%20for%20your%20Scope%203%20emissions%20and%20attach%20the%20relevant%20statements.%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3ECDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting.%20This%20question%20gives%20data%20users%20further%20confidence%20in%20the%20accuracy%20of%20the%20data%20reported.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cstrong%3ERequested%20content%3C/strong%3E%3C/h3%3E%0A%3Ch4%3EGeneral%3C/h4%3E%0A%3Cul%3E%0A%3Cli%3EIf%20you%20are%20reporting%20third%20party%20verification%20or%20assurance%20underway,%20your%20entries%20into%20the%20table%20should%20reflect%20the%20emissions%20that%20are%20being%20subject%20to%20verification/assurance%20for%20the%20current%20reporting%20year,%20with%20the%20exception%20of%20the%20attached%20statement,%20which%20will%20relate%20to%20a%20previous%20year.%3C/li%3E%0A%3Cli%3ECDP%20understands%20that%20you%20may%20seek%20verification%20for%20reasons%20other%20than%20reporting%20to%20CDP%20and%20that%20confidential%20information%20may%20be%20included%20within%20your%20detailed%20verification%20statement.%20In%20this%20case,%20it%20is%20sufficient%20for%20your%20verifier/assurer%20to%20attest%20to%20the%20Scope%20and%20level%20of%20assurance/verification%20through%20correspondence%20such%20as%20an%20abbreviated%20statement%20as%20long%20as%20this%20covers%20the%20data%20points%20outlined%20below%20(see%20guidance%20for%20column%204%20&amp;lsquo;Attach%20your%20statement%20here&amp;rsquo;).%3C/li%3E%0A%3C/ul%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C10.2)%20Do%20you%20verify%20any%20climate-related%20information%20reported%20in%20your%20CDP%20disclosure%20other%20than%20the%20emissions%20figures%20reported%20in%20C6.1,%20C6.3,%20and%20C6.5?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20information%20gives%20data%20users%20further%20confidence%20in%20the%20information%20provided%20in%20your%20organization&amp;rsquo;s%20response.%20Data%20users%20often%20ask%20about%20the%20credibility/%20quality%20of%20the%20data%20and%20other%20information%20disclosed.%20CDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting%20as%20it%20ensures%20the%20quality%20of%20data%20and%20processes%20disclosed.%20This%20question%20allows%20leading%20companies%20to%20report%20their%20efforts%20on%20this,%20and%20to%20highlight%20trends%20that%20CDP%20data%20users%20might%20anticipate%20being%20good%20practice%20among%20companies%20in%20the%20future.%3C/p%3E%0A%3Cp%3E&amp;nbsp;%3C/p%3E%0A%3Ch3%3E%3Cspan%20style=%22color:%20#236fa1;%22%3E%3Cstrong%3E(C10.2a)%20Which%20data%20points%20within%20your%20CDP%20disclosure%20have%20been%20verified,%20and%20which%20verification%20standards%20were%20used?%3C/strong%3E%3C/span%3E%3C/h3%3E%0A%3Cdiv%3E&amp;nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Ch3%3E%3Cstrong%3ERationale%3C/strong%3E%3C/h3%3E%0A%3Cp%3EThis%20information%20gives%20data%20users%20further%20confidence%20in%20the%20information%20provided%20in%20your%20organization&amp;rsquo;s%20response.%20Data%20users%20often%20ask%20about%20the%20credibility/%20quality%20of%20the%20data%20and%20other%20information%20disclosed.%20CDP%20supports%20verification%20and%20assurance%20as%20good%20practice%20in%20environmental%20reporting%20as%20it%20ensures%20the%20quality%20of%20data%20and%20processes%20disclosed.%20This%20question%20allows%20leading%20companies%20to%20report%20their%20efforts%20on%20this,%20and%20to%20highlight%20trends%20that%20CDP%20data%20users%20might%20anticipate%20being%20good%20practice%20among%20companies%20in%20the%20future.%3C/p%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E&quot;,
+            &quot;card&quot; : &quot;{card}&quot;
+          },
+          &quot;type&quot; : &quot;text&quot;,
+          &quot;styleObject&quot; : {
+            &quot;sizeClass&quot; : &quot;slds-size_12-of-12&quot;
+          },
+          &quot;elementLabel&quot; : &quot;Text-0&quot;
+        } ]
+      }
+    },
+    &quot;childCards&quot; : [ ],
+    &quot;actions&quot; : [ ],
+    &quot;omniscripts&quot; : [ ],
+    &quot;documents&quot; : [ ]
+  } ],
+  &quot;dataSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;value&quot; : { },
+    &quot;orderBy&quot; : { },
+    &quot;contextVariables&quot; : [ ]
+  },
+  &quot;title&quot; : &quot;C10FC&quot;,
+  &quot;enableLwc&quot; : true,
+  &quot;isFlex&quot; : true,
+  &quot;theme&quot; : &quot;slds&quot;,
+  &quot;selectableMode&quot; : &quot;Multi&quot;,
+  &quot;xmlObject&quot; : {
+    &quot;targetConfigs&quot; : &quot;PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,
+    &quot;targets&quot; : {
+      &quot;target&quot; : [ &quot;lightning__RecordPage&quot;, &quot;lightning__AppPage&quot;, &quot;lightning__HomePage&quot; ]
+    },
+    &quot;apiVersion&quot; : 51,
+    &quot;masterLabel&quot; : &quot;C10FC&quot;,
+    &quot;description&quot; : &quot;&quot;,
+    &quot;runtimeNamespace&quot; : &quot;&quot;,
+    &quot;isExposed&quot; : false
+  },
+  &quot;xmlJson&quot; : [ {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__AppPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    }, {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;recordId&quot;,
+        &quot;type&quot; : &quot;String&quot;
+      }
+    } ]
+  }, {
+    &quot;@attributes&quot; : {
+      &quot;targets&quot; : &quot;lightning__RecordPage&quot;
+    },
+    &quot;property&quot; : [ {
+      &quot;@attributes&quot; : {
+        &quot;name&quot; : &quot;debug&quot;,
+        &quot;type&quot; : &quot;Boolean&quot;
+      }
+    } ]
+  } ]
+}</propertySetConfig>
+    <versionNumber>1</versionNumber>
+</OmniUiCard>

@@ -1,0 +1,13 @@
+- plugin: snowfakery.standard_plugins.Salesforce.SalesforceQuery
+
+- object: ContentDocumentLink
+  fields:
+    ShareType: V
+    LinkedEntityId:
+      SalesforceQuery.find_record:
+        from: OmniProcess
+        where: name='Consumer Goods Sector' and isActive = true
+    ContentDocumentId:
+      SalesforceQuery.find_record:
+        from: ContentDocument
+        where: Title='SASB Standards Consumer Goods Sector Template V1'

@@ -1,0 +1,23 @@
+{
+  "orgName": "DCH - Dev Org",
+  "edition": "Enterprise",
+  "features": ["EnableSetPasswordInApi","SustainabilityApp","TCRMForSustainability","DevelopmentWave","DataProcessingEngine","Assessments","OmniStudioDesigner","OmniStudioRuntime","DocGenInd","ClauseManagement","DisclosureFramework"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "industriesSettings":{
+      "enableSustainabilityCloud": true,
+      "enableSCCarbonAccounting" : true,
+      "enableIndustriesAssessment": true,
+      "enableDiscoveryFrameworkMetadata": true
+
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+  }
+  }
+}

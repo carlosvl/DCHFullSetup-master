@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;C10D1Resp&quot; : [ {
+    &quot;C10D1D1Val&quot; : &quot;Scope 1&quot;
+  }, {
+    &quot;C10D1D1Val&quot; : &quot;Scope 2 (location-based)&quot;
+  }, {
+    &quot;C10D1D1Val&quot; : &quot;Scope 3&quot;
+  } ]
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>C10D1DR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>C10D1DRCustom4850</globalKey>
+        <inputFieldName>C10D1Resp:C10D1D1Val</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>C10D1DR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHCDP__C10D1:NZCDCHCDP__C10D1D1</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;C10D1Resp&quot; : [ {
+    &quot;C10D1D1Val&quot; : &quot;Scope 1&quot;
+  }, {
+    &quot;C10D1D1Val&quot; : &quot;Scope 2 (location-based)&quot;
+  }, {
+    &quot;C10D1D1Val&quot; : &quot;Scope 3&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>C10D1DR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

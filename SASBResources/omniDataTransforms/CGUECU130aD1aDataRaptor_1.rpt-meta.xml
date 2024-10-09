@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <description>(CG-EC-130a.1a) Total energy consumed</description>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>CGUECU130aD1aDataRaptor</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CGUECU130aD1aDataRaptorCustom9579</globalKey>
+        <inputFieldName>AEI:Totalenergycomsumed</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>CGUECU130aD1aDataRaptor</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHSASB__CGUECU130aD1a</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:AEI:EnergyUsageCommercialBld var:AEI:EnergyUsageDataCenters SUM 0.0036 * &apos;/\/\/&apos; &apos;GJ&apos; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(SUM(AEI:EnergyUsageCommercialBld,AEI:EnergyUsageDataCenters)*0.0036,&apos; &apos;&apos;GJ&apos;)</formulaExpression>
+        <formulaResultPath>AEI:Totalenergycomsumed</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>CGUECU130aD1aDataRaptorCustom9840</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>CGUECU130aD1aDataRaptor</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>year</filterValue>
+        <globalKey>CGUECU130aD1aDataRaptorCustom2163</globalKey>
+        <inputFieldName>Year</inputFieldName>
+        <inputObjectName>AnnualEmssnInventory</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>CGUECU130aD1aDataRaptor</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>AEI</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;year&quot; : &quot;2023&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>CGUECU130aD1aDataRaptor_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>
